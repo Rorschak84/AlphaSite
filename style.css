@@ -1,0 +1,157 @@
+
+@font-face {
+
+    font-family: 'CenturyGothic';
+    src: url('CenturyGothic.woff2') format('woff2'),
+        url('CenturyGothic.woff') format('woff'),
+        url('CenturyGothic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+
+    }
+
+
+@font-face {
+
+    font-family: 'CenturyGothic-Bold';
+    src: url('CenturyGothic-Bold.woff2') format('woff2'),
+        url('CenturyGothic-Bold.woff') format('woff'),
+        url('CenturyGothic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    }
+
+
+
+/* ------ GENERAUX --------*/
+
+body {
+    
+     font-family: "Century Gothic","Modern Sans", "Verdana";
+    margin:0 auto;
+    }
+
+
+h1, h2, h3 {   
+    
+    font-size : 26px;
+    font-family: "CenturyGothic-Bold";
+    }
+
+
+ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+    overflow:hidden;
+    }
+
+
+a {
+    display:block;
+    //text-indent: -1000px;
+    }
+
+
+
+
+/* ------ HEADER --------*/
+
+
+
+.Container {
+
+    background-image: linear-gradient(to right, #41ab6d, #097a5e);
+    height: 30%;
+    }
+
+
+.menu{
+    margin-left:250px;   
+    }
+
+
+.oveha-logo {
+    margin-left:10px ;
+    float:left;
+    height : 94,5px;
+    width:70%;
+    display: inline-block, vertical-align: middle;
+    }
+
+
+
+
+/*------ MENU --------*/
+
+
+nav ul {
+
+    margin: 0;
+    width:824px;
+    height: 36px;
+    }
+
+
+nav li {
+    float: left;
+    }
+
+
+nav a {
+
+    display: block;
+    width:200px;
+    height: 36px;
+    background:transparent  ;
+    color:white;
+    font-size:12px;
+    text-decoration:none;
+    line-height:36px;
+    text-align: center;
+    -webkit-transition:1s all;
+    -moz-transition:1s all;
+    -o-transition:1s all;
+    transition:1s all;
+    }
+
+
+nav a:hover {
+    background:white;
+    color:#097a5e;
+    }
+
+
+p, q, a {
+   
+    font-size : 18px;
+    font-family: "CenturyGothic";
+    }
+
+
+
+
+/* ------ CONTENU --------*/
+
+#conteneur {
+    
+    width: 920px;
+    margin:0 auto;
+    padding: 0 10px;
+    }
+
+#AccueilId {
+    
+    font-size: 42px;
+    }
+
+
+
+
+/* ------ FOOTER --------*/
+
+.Legal {
+    background-image: linear-gradient(to left, #41ab6d, #097a5e);
+    }
