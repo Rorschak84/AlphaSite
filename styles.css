@@ -2,9 +2,9 @@
 @font-face {
 
     font-family: 'CenturyGothic';
-    src: url('CenturyGothic.woff2') format('woff2'),
-        url('CenturyGothic.woff') format('woff'),
-        url('CenturyGothic.ttf') format('truetype');
+    src: url('fonts/CenturyGothic.woff2') format('woff2'),
+        url('fonts/CenturyGothic.woff') format('woff'),
+        url('fonts/CenturyGothic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -15,9 +15,9 @@
 @font-face {
 
     font-family: 'CenturyGothic-Bold';
-    src: url('CenturyGothic-Bold.woff2') format('woff2'),
-        url('CenturyGothic-Bold.woff') format('woff'),
-        url('CenturyGothic-Bold.ttf') format('truetype');
+    src: url('fonts/CenturyGothic-Bold.woff2') format('woff2'),
+        url('fonts/CenturyGothic-Bold.woff') format('woff'),
+        url('fonts/CenturyGothic-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -59,25 +59,39 @@ a {
 
 /* ------ HEADER --------*/
 
+.Top {
 
+     margin-top:-64px;
+    width: 1112,89px;
+    height: 100px;
+    }
 
 .Container {
 
+    width: 1112,89px;
+    height: 100px;
     background-image: linear-gradient(to right, #41ab6d, #097a5e);
-    height: 30%;
     }
 
 
 .menu{
-    margin-left:250px;   
+
+    margin-left:395px;
+    margin-top:64px;
+    }
+
+.menu nav {
+
+    display: inline-block; vertical-align: middle;
+    margin-top:64px;
     }
 
 
 .oveha-logo {
+
     margin-left:10px ;
     float:left;
     height : 94,5px;
-    width:70%;
     display: inline-block, vertical-align: middle;
     }
 
@@ -96,6 +110,7 @@ nav ul {
 
 
 nav li {
+
     float: left;
     }
 
@@ -119,6 +134,7 @@ nav a {
 
 
 nav a:hover {
+
     background:white;
     color:#097a5e;
     }
@@ -135,6 +151,12 @@ p, q, a {
 
 /* ------ CONTENU --------*/
 
+#AccueilId {
+    
+    font-size: 42px;
+    }
+
+
 #conteneur {
     
     width: 920px;
@@ -142,16 +164,22 @@ p, q, a {
     padding: 0 10px;
     }
 
-#AccueilId {
-    
-    font-size: 42px;
+
+.LiensFormations {
+    margin: 35px -430px;
+    background-image: linear-gradient(to left, #41ab6d, #097a5e);
+    color: white;
+    padding-left: 430px;
     }
 
-
+.Formations a {
+    color: white;
+    }
 
 
 /* ------ FOOTER --------*/
 
 .Legal {
-    background-image: linear-gradient(to left, #41ab6d, #097a5e);
+
+    background-image: linear-gradient(to right, #41ab6d, #097a5e);
     }
