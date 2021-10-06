@@ -76,7 +76,7 @@ a {
 
 .menu{
 
-    margin-left:395px;
+    margin-left:300px;
     margin-top:64px;
     }
 
@@ -165,11 +165,12 @@ p, q, a {
     }
 
 
-.LiensFormations {
-    margin: 35px -430px;
+.Formations {
+    list-style: none;
+    margin: 0px -430px;
     background-image: linear-gradient(to left, #41ab6d, #097a5e);
     color: white;
-    padding-left: 430px;
+    padding-left: 350px;
     }
 
 .Formations a {
@@ -182,4 +183,4 @@ p, q, a {
 .Legal {
 
     background-image: linear-gradient(to right, #41ab6d, #097a5e);
-    }
+    color: white;
