@@ -29,7 +29,7 @@
 
 body {
     
-     font-family: "Century Gothic","Modern Sans", "Verdana";
+    font-family: "Century Gothic","Modern Sans", "Verdana";
     margin:0 auto;
     }
 
@@ -59,9 +59,9 @@ a {
 
 /* ------ HEADER --------*/
 
-.Top {
+#Top {
 
-     margin-top:-64px;
+    margin-top:-64px;
     width: 1112,89px;
     height: 100px;
     }
@@ -151,7 +151,8 @@ p, q, a {
 
 /* ------ CONTENU --------*/
 
-#AccueilId {
+
+.AccueilId {
     
     font-size: 42px;
     }
@@ -165,22 +166,30 @@ p, q, a {
     }
 
 
-.Formations {
-    list-style: none;
-    margin: 0px -430px;
-    background-image: linear-gradient(to left, #41ab6d, #097a5e);
+.Main {
     color: white;
-    padding-left: 350px;
+    margin:none;
+    padding-left: none;
+    width: auto;
+    height: auto;
+    list-style: none;
+    margin: 0px -299.5px;
+    background-image: linear-gradient(to left, #41ab6d, #097a5e);
     }
 
-.Formations a {
+
+.LiensFormations {
+    list-style: none;
+    margin: 0px 0px;
     color: white;
+    padding-left: 200px;
     }
+
 
 
 /* ------ FOOTER --------*/
 
 .Legal {
 
-    background-image: linear-gradient(to right, #41ab6d, #097a5e);
-    color: white;
+ /*   background-image: linear-gradient(to right, #41ab6d, #097a5e);
+    color: white; */
