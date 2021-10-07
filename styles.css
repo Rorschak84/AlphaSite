@@ -1,14 +1,13 @@
 
 @font-face {
 
-    font-family: 'CenturyGothic';
-    src: url('fonts/CenturyGothic.woff2') format('woff2'),
-        url('fonts/CenturyGothic.woff') format('woff'),
-        url('fonts/CenturyGothic.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'Poppins-Light';
+    src: url('fonts/Poppins-Light.woff2') format('woff2'),
+        url('fonts/Poppins-Light.woff') format('woff'),
+        url('fonts/Poppins-Light.ttf') format('truetype');
+    font-weight: 300;    
     font-style: normal;
     font-display: swap;
-
     }
 
 
@@ -29,8 +28,14 @@
 
 body {
     
-    font-family: "Century Gothic","Modern Sans", "Verdana";
+    font-family: "Poppins-Light","Modern Sans", "Verdana";
     margin:0 auto;
+    }
+
+p, q, a {
+   
+    font-size : 18px;
+    font-family: "Poppins-Light";
     }
 
 
@@ -66,24 +71,12 @@ a {
     height: 100px;
     }
 
+
 .Container {
 
     width: 1112,89px;
     height: 100px;
     background-image: linear-gradient(to right, #41ab6d, #097a5e);
-    }
-
-
-.menu{
-
-    margin-left:300px;
-    margin-top:64px;
-    }
-
-.menu nav {
-
-    display: inline-block; vertical-align: middle;
-    margin-top:64px;
     }
 
 
@@ -100,6 +93,18 @@ a {
 
 /*------ MENU --------*/
 
+.menu{
+
+    width: 80%;
+    margin-left:15%;
+    margin-top:64px;
+    }
+
+.menu nav {
+
+    display: inline-block; vertical-align: middle;
+    margin-top:64px;
+    }
 
 nav ul {
 
@@ -108,12 +113,10 @@ nav ul {
     height: 36px;
     }
 
-
 nav li {
-
+    display: inline-block;
     float: left;
     }
-
 
 nav a {
 
@@ -132,7 +135,6 @@ nav a {
     transition:1s all;
     }
 
-
 nav a:hover {
 
     background:white;
@@ -140,50 +142,95 @@ nav a:hover {
     }
 
 
-p, q, a {
-   
-    font-size : 18px;
-    font-family: "CenturyGothic";
-    }
-
-
 
 
 /* ------ CONTENU --------*/
 
-
-.AccueilId {
-    
-    font-size: 42px;
-    }
-
-
 #conteneur {
     
-    width: 920px;
+    width: 80%;
     margin:0 auto;
     padding: 0 10px;
     }
 
 
+.Context {
+
+    width: 80%;
+    margin-left: 7%;
+    margin-bottom: 3%;
+    }
+
+
+.AccueilId {
+
+    font-size: 42px;
+    }
+
+
 .Main {
-    color: white;
-    margin:none;
-    padding-left: none;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: -180px;
     width: auto;
-    height: auto;
-    list-style: none;
-    margin: 0px -299.5px;
     background-image: linear-gradient(to left, #41ab6d, #097a5e);
     }
 
 
-.LiensFormations {
-    list-style: none;
-    margin: 0px 0px;
+.Prestations {
+
+    position: relative;
+    width: 70%;
+    left: 18%;
+    padding-top: 10px;
+    padding-bottom: 30px;
     color: white;
-    padding-left: 200px;
     }
+
+
+.Liens a, li {
+
+    position: relative;
+    left: 5px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    -webkit-transition:0.3s all;
+    -moz-transition:0.3s all;
+    -o-transition:0.3s all;
+    transition:0.3s all;
+    }
+
+
+.Liens a:hover {
+
+    background:white;
+    color:#097a5e;
+    }
+
+
+.MesReferences {
+
+    margin-left: 7%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.MesReferences li {
+
+    color: black;
+}
+
+
+.Contact {
+
+    margin-left: 7%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 
 
 
