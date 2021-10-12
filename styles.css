@@ -104,7 +104,7 @@ a {
 
 .menu nav {
 
-    display: inline-block; vertical-align: middle;
+    display: inline-block;
     margin-top:64px;
     }
 
@@ -199,6 +199,7 @@ nav a:hover {
 
 .Liens a, li {
 
+    margin-left: 7px;
     position: relative;
     left: 5px;
     text-decoration: none;
@@ -217,12 +218,20 @@ nav a:hover {
     color:#097a5e;
     }
 
+.RefContact {
 
+    height: 255.16px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 100px
+
+}
 .MesReferences {
 
-    width: 50%;
+    float: left;
+    width: 25%;
     margin-left: 5%;
-    padding-top: 30px;
+    margin-right: 5%;
     padding-bottom: 25px;
 }
 
@@ -234,27 +243,22 @@ nav a:hover {
 
 
 .vertical { 
-    position: relative;
-    left: 400px;
-    bottom: 210px;
+
+    margin-left: 25px;
+    margin-right: 25px;
     border-left: 1.3px solid #41ab6d; 
     height: 175px; 
-    display: inline-block;
+    display: inline-block; 
 } 
 
 
 .Contact {
 
-    position: relative;
-    right: 220px;
-    bottom: 237px;
-    display: inline-block;
     float: right;
-    width: 50%;
-    margin-left: 7%;
-    padding-top: 10px;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
     padding-bottom: 25px;
-
 }
 
 
