@@ -65,7 +65,7 @@ a {
 
 /* ------ HEADER --------*/
 
-#Top {
+#header {
 
     margin-top:-64px;
     width: 1112,89px;
@@ -83,13 +83,11 @@ a {
 
 .oveha-logo {
 
-    margin-left:10px ;
+    margin-left: 10px ;
     float:left;
     height : 94,5px;
     display: inline-block, vertical-align: middle;
     }
-
-
 
 
 /*------ MENU --------*/
@@ -97,7 +95,7 @@ a {
 .menu{
 
     width: 80%;
-    margin-left:15%;
+    margin-left:17%;
     margin-top:64px;
     }
 
@@ -112,12 +110,14 @@ a {
 nav ul {
 
     margin: 0;
-    width:824px;
+    width:854px;
     height: 36px;
     }
 
 
 nav li {
+    margin-left: 0.5px;
+    margin-left: 0.5px;
     display: inline-block;
     float: left;
     }
@@ -126,7 +126,7 @@ nav li {
 nav a {
 
     display: block;
-    width:200px;
+    width:180px;
     height: 36px;
     background:transparent  ;
     color:white;
@@ -150,16 +150,20 @@ nav a:hover {
 
 
 
-/* ------ CONTENU --------*/
+/* ------ MAIN --------*/
 
 
-#conteneur {
-    
+#main {
+    position:relative;
+    min-height:100%;
     width: 80%;
     margin:0 auto;
     padding: 0 10px;
+    max-width:1280px;
     }
 
+
+/* --- Context --- */
 
 .Context {
 
@@ -169,13 +173,16 @@ nav a:hover {
     }
 
 
-.AccueilId {
+.h1 {
 
+    width: 90%;
     font-size: 42px;
     }
 
 
-.Main {
+/* ---  Services ---*/
+
+.Services {
 
     position: relative;
     width: auto;
@@ -199,6 +206,7 @@ nav a:hover {
 
 .Liens a, li {
 
+    width: auto;
     margin-left: 7px;
     position: relative;
     left: 5px;
@@ -214,64 +222,90 @@ nav a:hover {
 
 .Liens a:hover {
 
+    width: auto;
     background:white;
     color:#097a5e;
     }
 
-.RefContact {
+
+/* ---  Contacts ---*/
+
+.Contacts {
 
     height: 255.16px;
     margin-left: 100px;
     margin-right: 100px;
-    padding-bottom: 100px
+    padding-bottom: 75px
+    }
 
-}
-.MesReferences {
+.mesReferences {
 
     float: left;
     width: 25%;
     margin-left: 5%;
     margin-right: 5%;
     padding-bottom: 25px;
-}
+    }
 
 
-.MesReferences li {
+.mesReferences li {
 
     color: black;
-}
+    margin-left: -5px;
+    }
 
 
 .vertical { 
 
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 25px;
     margin-right: 25px;
     border-left: 1.3px solid #41ab6d; 
     height: 175px; 
     display: inline-block; 
-} 
+    } 
 
 
-.Contact {
+.meContacter {
 
+    color:#097a5e;
+    position: relative;
+    top: -15px;
     float: right;
     width: 40%;
     margin-right: 5%;
     margin-left: 5%;
     padding-bottom: 25px;
-}
+    }
 
 
-.Contact a {
+.meContacter a, li {
 
+    margin-left: -3px;
     text-decoration: none;
-}
+    }
 
 
-.Contact a:hover {
+.meContacter a:hover {
 
-    background:white;
-    color:#097a5e;
+    transition:0.3s;
+    opacity: 0.5;
+    }
+
+.Linkedin {
+
+    width: 20%;
+    }
+
+.Telephone {
+
+    width: 40%;
+    }
+
+.Mail {
+
+    width: 45%;
     }
 
 
@@ -280,15 +314,57 @@ nav a:hover {
 /* ------ FOOTER --------*/
 
 
-#PiedPage {
+#footer {
 
-    margin-top: 0px;
 
-}
+    width:100%;
+    height:150px;
+    }
+
+
+.contenu {
+
+    text-align: center;
+    padding: 10px;
+    height:150px;
+    background-image: linear-gradient(to right, #41ab6d, #097a5e);
+    }
+
+
+.contenu a {
+
+    color: white;
+    text-decoration: none;
+    }
+
+.contenu a:hover {
+
+    transition:0.3s;
+    opacity: 0.5;
+    }
 
 
 .Legal {
-    padding: 10px;
-    background-image: linear-gradient(to right, #41ab6d, #097a5e);
-    color: white; 
+
+    padding-top: 50px;
+}
+
+.PlanduSite {
+
+    margin: 20px;
+    display: inline-block;
+    }
+
+
+.Accessibilité {
+
+    margin: 20px;
+    display: inline-block;
+    }
+
+
+.Crédits {
+
+    margin: 20px;
+    display: inline-block;
     }

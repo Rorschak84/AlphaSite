@@ -20,7 +20,7 @@
 
 <!-- HEADER -->
 
-    <header id="Top">
+    <header id="header">
 
             <div class="Container">  
 
@@ -36,7 +36,7 @@
                                     <li> <a href="sousPages/quiSuisJe.html"> Qui suis-je ?                    </a> </li>
                                     <li> <a href="#FormationsId"> Formation                                   </a> </li>
                                     <li> <a href="sousPages/ateliersConférences.html"> Ateliers / Conférences </a> </li>
-                                    <li> <a href="sousPages/prestationsConseils.html">Prestations de conseil  </a> </li>
+                                    <li> <a href="sousPages/prestationsConseils.html"> Prestations de conseil </a> </li>
                                 </ul>       
                             </nav>
                     </div>
@@ -47,11 +47,11 @@
 
 <!-- MAIN -->
 
-    <main id="conteneur">
+    <main id="main">
 
             <section class="Context">
 
-                </br> <h1 class="AccueilId"> L’accessibilité numérique et le handicap, </br> dans l’entreprise et à domicile </h1> </br>
+                </br> <h1 class="h1"> L’accessibilité numérique et le handicap, dans l’entreprise et à domicile </h1> </br>
 
 
                 <h2> De quoi s’agit-il ? </h2>
@@ -64,7 +64,7 @@
             </section>
 
 
-            <section class="Main">
+            <section class="Services">
 
                     <div class="Prestations">
 
@@ -73,8 +73,8 @@
                                     <h2> Des formations conçues pour vous </h2>
 
                                     <ul class="Liens">
-                                        <li> <a href="sousPages/formationServicesALaPersonne.html"> Formations des Services à la Personne </a> </li>
-                                        <li> <a href="sousPages/formationNumérique.html"> Formations pour les professionnels en lien avec le numérique </a> </li> </br> 
+                                        <li class="particuliers"> <a href="sousPages/formationServicesALaPersonne.html"> Formations des Services à la Personne </a> </li>
+                                        <li class="professionnels"> <a href="sousPages/formationNumérique.html"> Formations pour les professionnels en lien avec le numérique </a> </li> </br> 
                                     </ul> 
                             </div>
 
@@ -83,24 +83,27 @@
                                     <h2> Des ateliers et conférences impactants </h2>
                                     <p> Pour sensibiliser les collaborateurs à la réalité quotidienne des personnes en situation de handicap devant un service numérique </p>
 
-                                <ul class="Liens">
-                                        <li> <a href="sousPages/ateliersSensibilisation.html"> Ateliers de sensibilisation </a> </li>
-                                        <li> <a href="sousPages/conférences.html"> Conférences </a> </li> <br/>
-                                </ul>
+                                    <ul class="Liens">
+                                        <li class="sensibilisation"> <a href="sousPages/ateliersSensibilisation.html"> Ateliers de sensibilisation </a> </li>
+                                        <li class="conferences"> <a href="sousPages/conférences.html"> Conférences </a> </li> <br/>
+                                    </ul>
                             </div>
 
                             <div class="Conseils">
 
                                     <h2> Des conseils et des évaluations usagers de services numériques </h2>
                                     <p> Avec l’appui d’un graphiste, je vous apporte mes conseils pour produire des supports numériques accessibles. </p>
-                                        <li class="Liens"> <a href="sousPages/prestationsConseils.html"> Conseils et Évaluation </a> </li>
+
+                                     <ul class="Liens">
+                                        <li class="evaluations"> <a href="sousPages/prestationsConseils.html"> Conseils et Évaluation </a> </li>
+                                    </ul>
                             </div>
                     </div>
             </section>
 
-            <section class="RefContact">
+            <section class="Contacts">
 
-                    <div class="MesReferences">
+                    <div class="mesReferences">
 
                             <h2> Mes références </h2>
                                 <ul class="references">
@@ -116,12 +119,12 @@
                     </div>
 
 
-                    <div class="Contact">
+                    <div class="meContacter">
 
-                            <h3> Pour discuter de vos projet, contactez moi : </h3>
+                            <h2> Pour discuter de vos projet, contactez moi : </h2>
                                 <ul class="contacts">
                                     <li class="Linkedin"> <a href="https://www.linkedin.com/in/christine-langlais-98a1608b/"> Linkedin </a> </li> 
-                                    <li class="Telephone"> <a href="tel:+685933059"> tel: 0685933059 </a> </li> 
+                                    <li class="Telephone"> <a href="tel:+685933059"> tel : 0685933059 </a> </li> 
                                     <li class="Mail"> <a href="mailto:contact@oveha.fr"> contact@oveha.fr </a> </li>
                                 </ul> </br> 
                     </div>
@@ -133,13 +136,18 @@
 
 <!-- FOOTER -->
 
-    <footer id="PiedPage">
+    <footer id="footer">
         
-        <section class="Legal"> 
-            <p> <a href="sousPages/planSite.html">Plan du site</a> <br/> </p>
-            <p> <a href="sousPages/aideAccessibilite.html">Aide et accessibilité</a> <br/> </p>
-            <p> <a href="sousPages/mentionsLegales.html">Crédits et mentions obligatoires</a> <br/> </p>
-        </section>
+        <div class="contenu"> 
+
+                <div class="Legal">
+
+                    <p class="PlanduSite"> <a href="sousPages/planSite.html">Plan du site</a> </p>
+                    <p class="Accessibilité"> <a href="sousPages/aideAccessibilite.html">Aide et accessibilité</a> </p>
+                    <p class="Crédits"> <a href="sousPages/mentionsLegales.html">Crédits et mentions obligatoires</a> </p>
+
+                </div>
+        </div>
     </footer>
  
 
