@@ -130,29 +130,40 @@
     }
  
     div .menu nav .main_pages {
+        position:absolute;
         display: none;
         flex-direction: column;
-        background: #097a5e;
-        height: 350px;
+        background-image: linear-gradient(to left, #41ab6d, #097a5e);
+        height: 450px;
+        width: 100%;
+        margin-top: 24px;
+        padding-bottom: 40px;
     }
 
     div .menu nav .main_pages a {
+        color: white;
         width: 50%;
     }
 
+    div .menu nav .main_pages a:hover {
+        background: white;
+        color: #097a5e;
+    }
 
     .menu label 
     {
         width: 30px;
         display: flex;
+        padding-top: 25px;
+        padding-left: 60px;
         margin: 0 auto;
         font-size: 30px;
         color: white;
         cursor: pointer;
     }
 
-    #toggle:checked + .main_pages {
-        display: flex;
+    .menu #toggle:checked + .main_pages {
+        display: flex;       
     }
 }
 
@@ -270,9 +281,8 @@ nav li {
     }
 */
 
-nav a:hover {
-
-    
+nav .main_pages a:hover {
+    color:#097a5e;
     background:white;
     }
 
@@ -323,7 +333,7 @@ label, #toggle {
 
 
 #main {
-    position:relative;
+    position:flex;
     min-height:100%;
     width: 80%;
     margin:0 auto;
