@@ -1,88 +1,127 @@
- 
 <!DOCTYPE html>
-<html lang="fr">
-    <head>
-        <meta charset="utf-8" />
-        <title>Oveha Expérience-Plan du Site</title>
-        <meta name= "Auteur : Tom Sokcic et Simon Langlais, deux jeunes prodiges du web">
-		<meta name="description" content="Page d'accueil d'Oveha Experience ">
-    </head>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>OVEHA</title>
+<meta name= "Auteurs : Tom Sokcic (SOK) et Simon Langlais">
+<meta name="description" content="OVEHA EXPERIENCE">
 
-    <body>
+<link rel="stylesheet" type="text/css" href="../styles.css">
+
+<!-- <script type="text/javascript" src="script.js"></script> -->
+
+<!--[if lt IE 9]>
+    <script src="components/html5shiv/html5shiv.js"></script>
+<![endif]-->
+
+</head>
+
+
+<body>
+
+
+<!-- HEADER -->
+
+    <header id="header">
+
+            <div class="Container">  
+
+                    <div class="oveha-logo">
+                         <a href="../Accueil.html" title="Retour à l'accueil">
+                                <img src="../image/logo-blanc-fond-transparent.png" alt="logo: Logo d'OVEHA EXPERIENCE composée d'une silhouette de face, bras à l’horizontal, repoussant des murs de chaque extrémité." width="220" height="94,5">
+                         </a>
+                    </div>
+
+                    <div class="menu">
+                            <nav>
+                                <label for="toggle">☰</label>
+                                <input type="checkbox" id="toggle">
+                                <div class="main_pages">
+                                        <a href="quiSuisJe.html"> Qui suis-je ? </a>
+                                        <a href="#FormationsId"> Formations </a>
+                                        <a href="#"> Ateliers </a>
+                                        <a href="#"> Conseils </a>
+                                </div>               
+                            </nav>
+                    </div>
+            </div>
+    </header>  
 
 
 
-<!--En-tête -->
+<!-- MAIN -->
+
+    <main id="main" alt="Contenu Principal">
+                        
+                        <section>   
+                        <h1>Plan du Site</h1>  
+                        
+                        <ul>
+                                <li><a href="../Accueil.html">Accueil </a><br /></li>
+                                <li><a href="quiSuisJe.html"> Qui suis-je ?</a><br/></li>
+                                <li><p>Formations</p>
+                                    <li><a href="formationNumérique.html">Formations concernant l'accessibilité numérique </a><br /></li>
+                                    <li><a href="formationServicesALaPersonne.html">Formations autour du thème du handicap </a><br /></li>
+                                </li>
+                                <li><a href="ateliersConférences.html"> Ateliers de sensibilisation et Conférences</a><br/></li>
+                                <li><a href="prestationsConseils.html">Prestations de conseil </a><br/></li>
+                                <li><a href="mentions-legales.html">Mentions Légales </a><br/></li>
+                                <li><a href="planSite.html">Plan du Site </a><br/></li>
+                                <li><a href="aideAccessibilite.html">Aide et Accessibilité </a><br/></li>
+                        
+                          </ul>
+                        </section>
 
 
+	
+                        <section class="Contacts">
 
-    <header>
+                                <div class="mesReferences">
 
-  <img src="../image/logo.jpg" alt=" Logo de Oveha expérience. Le logo représente, sur un fond  en dégradé de vert, un individu, bras écartés, qui repousse des barrières de chaque côté" width="200" height="300">
-<p> <strong>     Ouvrir ses Horizons avec le Handicap</strong>  </p>
-<!--Lien d'évitement non visible excepté par lecteur d'écran -->
-<a href="#Contenu"> <span style = "height: 1px; largeur: 1px; position: absolute; overflow: hidden; top: -10px;"> Aller au contenu principal </span> </ a >
-  
-  <a href="#PiedPageId">Aller au pied-de-page </a><br />
+                                        <h2> Mes références </h2>
+                                            <ul class="references">
+                                                <li> ACAF MSA du Vaucluse </li>
+                                                <li> CREAI PACA corse </li>
+                                                <li> Reso Solution </li>
+                                                <li> Université d’Avignon </li>
+                                            </ul> </br>
+                                </div>
 
-  
-<!--pour le menu -->
-<nav>   
-<ul>
-        <li><a href="../Accueil.html">Accueil </a><br /></li>
-        <li><a href="quiSuisJe.html"> Qui suis-je ?</a><br/></li>
-        <li><a href="../Accueil#FormationsId">  Formations </a><br /></li>
-        <li><a href="ateliersConférences.html"> Ateliers  et Conférences</a><br/></li>
-        <li><a href="prestationsConseils.html">Conseil </a><br/></li>
-</ul>
+
+                                <div class="vertical"> 
+                                </div>
+
+
+                                <div class="meContacter">
+
+                                        <h2> Contactez moi : </h2>
+                                            <ul class="contacts">
+                                                <li class="Linkedin"> <a href="https://www.linkedin.com/in/christine-langlais-98a1608b/"> Linkedin </a> </li> 
+                                                <li class="Telephone"> <a href="tel:+685933059"> 0685933059 </a> </li> 
+                                                <li class="Mail"> <a href="mailto:contact@oveha.fr"> contact@oveha.fr </a> </li>
+                                            </ul>
+                                </div>
+
+                        </section>        
+    </main>
         
-</nav>
-        </header>   
 
 
+<!-- FOOTER -->
 
-<!--Contenu -->
+    <footer id="footer" alt="Pied de page">
+        
+        <div class="contenu"> 
 
-<section>   
+                <div class="Legal">
 
-<h1>Plan du Site</h1>  
+                    <p class="PlanduSite"> <a href="planSite.html">Plan du site</a> </p>
+                    <p class="Accessibilité"> <a href="aideAccessibilite.html">Aide et accessibilité</a> </p>
+                    <p class="Crédits"> <a href="mentions-legales.html">Crédits et Mentions</a> </p>
 
-<ul>
-        <li><a href="../Accueil.html">Accueil </a><br /></li>
-        <li><a href="quiSuisJe.html"> Qui suis-je ?</a><br/></li>
-        <li><p>Formations</p>
-            <li><a href="formationNumérique.html">Formations concernant l'accessibilité numérique </a><br /></li>
-            <li><a href="formationServicesALaPersonne.html">Formations autour du thème du handicap </a><br /></li>
-        </li>
-        <li><a href="ateliersConférences.html"> Ateliers de sensibilisation et Conférences</a><br/></li>
-        <li><a href="prestationsConseils.html">Prestations de conseil </a><br/></li>
-        <li><a href="mentions-legales.html">Mentions Légales </a><br/></li>
-        <li><a href="planSite.html">Plan du Site </a><br/></li>
-        <li><a href="aideAccessibilite.html">Aide et Accessibilité </a><br/></li>
-
-  </ul>
-</section>
-
-
-    	<footer>	
-<section>   
-<h1 id="PiedPageId">Pied de Page </h1>
-    <section>
-        <p>Pour discuter de vos projet, contactez moi: </p>
-        <ul>
-            <li><a href="tel:+685933059">Téléphone mobile</a></li>
-            <li>Adresse e-mail: <a href="mailto:contact@oshea.fr">  Cliquez ici pour m'envoyer un e-mail !</a></li>
-            <li> <a href="https://www.linkedin.com/in/christine-langlais-98a1608b/">Compte Linkedin</a></li> <br/>
-        </ul>
-    </section>
-    
-    <p> <a href="planSite.html">Plan du Site</a> <br/> </p>
-    <p> <a href="aideAccessibilite.html">Aide et Accessibilité</a> <br/> </p>
-    <p> <a href="mentions-legales.html">Crédit et Mentions obligatoires</a> <br/> </p>
-        </section>
-
-
-</footer>
+                </div>
+        </div>
+    </footer>
     
 
 

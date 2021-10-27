@@ -30,7 +30,6 @@
     }
 }
 
-
 @media (max-width: 940px){
 
     h1.h1 {
@@ -168,6 +167,7 @@
 }
 
 /* ------ GENERAUX --------*/
+
 
 body {
     
@@ -316,10 +316,10 @@ nav .main_pages a
     text-decoration: none;
     font-family: Poppins-Light, sans-serif;
     color: white;
-    -webkit-transition:0.5s all;
-    -moz-transition:0.5s all;
-    -o-transition:0.5s all;
-    transition:0.5s all;
+    -webkit-transition:0.35s all;
+    -moz-transition:0.35s all;
+    -o-transition:0.35s all;
+    transition:0.35s all;
 }
 
 
@@ -364,6 +364,7 @@ label, #toggle {
 
 .Services {
 
+    border-radius: 7px;
     position: relative;
     width: auto;
     padding: 50px;
@@ -423,7 +424,7 @@ label, #toggle {
 .mesReferences {
 
     float: left;
-    width: 25%;
+    width: 35%;
     margin-left: 4%;
     margin-right: 5%;
     padding-bottom: 25px;
@@ -439,12 +440,11 @@ label, #toggle {
 .vertical { 
     position: relative;
     top: 25px;
-    left: 70px;
+    left: 35px;
     height: 100px;
     display: inline-block;
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 25px;
     margin-right: 25px;
     border-left: 1.2px solid #41ab6d; 
     } 
