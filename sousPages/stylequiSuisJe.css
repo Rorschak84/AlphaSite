@@ -2,9 +2,9 @@
 @font-face {
 
     font-family: 'Poppins-Light';
-    src: url('fonts/Poppins-Light.woff2') format('woff2'),
-        url('fonts/Poppins-Light.woff') format('woff'),
-        url('fonts/Poppins-Light.ttf') format('truetype');
+    src: url('../fonts/Poppins-Light.woff2') format('woff2'),
+        url('../fonts/Poppins-Light.woff') format('woff'),
+        url('../fonts/Poppins-Light.ttf') format('truetype');
     font-weight: 300;    
     font-style: normal;
     font-display: swap;
@@ -14,9 +14,9 @@
 @font-face {
 
     font-family: 'CenturyGothic-Bold';
-    src: url('fonts/CenturyGothic-Bold.woff2') format('woff2'),
-        url('fonts/CenturyGothic-Bold.woff') format('woff'),
-        url('fonts/CenturyGothic-Bold.ttf') format('truetype');
+    src: url('../fonts/CenturyGothic-Bold.woff2') format('woff2'),
+        url('../fonts/CenturyGothic-Bold.woff') format('woff'),
+        url('../fonts/CenturyGothic-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -171,6 +171,7 @@
 
 body {
     
+    background-image: linear-gradient(to right, #41ab6d, #097a5e);
     font-family: "Poppins-Light","Modern Sans", "Verdana";
     margin:0;
     }
@@ -217,7 +218,6 @@ a {
 
     text-align: right;
     height: 100px;
-    background-image: linear-gradient(to right, #41ab6d, #097a5e);
     }
 
 
@@ -333,6 +333,7 @@ label, #toggle {
 
 
 #main {
+
     position:flex;
     min-height:100%;
     width: 80%;
@@ -342,87 +343,96 @@ label, #toggle {
     }
 
 
-/* --- Context --- */
+/* --- Bio --- */
 
-.Context {
 
+.Christine {
+    display: inline-block;
+    float: left;
+    position: relative;
+    width: 25%;
+}
+
+
+.Bio {
+    position: flex;
+    display: inline-block;
     width: 80%;
-    margin-left: 35px;
-    margin-bottom: 7%;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 5%;
     margin-top: 10%;
-    }
-
-
-.h1 {
-    margin-bottom: 7%;
-    width: 90%;
-    font-size: 42px;
-    }
-
-
-/* ---  Services ---*/
-
-.Services {
-
+    background-color: white;
     border-radius: 7px;
-    position: relative;
-    width: auto;
-    padding: 50px;
-    margin-top: 70px;
-    margin-bottom: 100px;
-    background-image: linear-gradient(to left, #41ab6d, #097a5e);
     }
 
+.Bio p {
 
-.Prestations {
+    display: inline-block;
+    position: flex;
+    width: 50%;
+    }
 
+.intro {
+
+    display: inline-block;
     position: relative;
-    width: 70%;
-    left: 30px;
-    padding-top: 10px;
-    padding-bottom: 30px;
+    float: right;
+    margin-left: 15px;
+    margin-right: 10%;
+
+}
+
+.développement {
+
+    display: inline-block;
+    position: flex;
+    float: right;
+    margin-left: 15px;
+    margin-right: 10%;
+
+}
+
+.conclusion {
+
+    display: inline-block;
+    position: relative;
+    float: right;
+    margin-left: 15px;
+    margin-right: 10%;
+
+}
+
+
+
+/* ---  Mise Évidence ---*/
+
+.MiseEvidence {
+    position: flex;
+    display: block;
     color: white;
+    width: 75%;
+    margin-left: 95px;
+    margin-bottom: 10%;
+    margin-top: 25px;
     }
-
-
-.Liens a, li {
-
-    width: auto;
-    margin-left: 7px;
-    padding-left: 3px;
-    position: relative;
-    left: 5px;
-    text-decoration: none;
-    list-style: none;
-    color: white;
-    border-radius: 3px;
-    -webkit-transition:0.3s all;
-    -moz-transition:0.3s all;
-    -o-transition:0.3s all;
-    transition:0.3s all;
-    }
-
-
-.Liens a:hover {
-
-    width: auto;
-    background:white;
-    color:#097a5e;
-    }
+}
 
 
 /* ---  Contacts ---*/
 
 .Contacts {
-
+    position: flex;
+    display: inline-block;
     height: 255.16px;
     margin-left: 100px;
     margin-right: 100px;
-    padding-bottom: 75px
+    margin-bottom: 75px
     }
 
 .mesReferences {
-
+    display: inline-block;
+    color: white;
     float: left;
     width: 35%;
     margin-left: 4%;
@@ -433,7 +443,7 @@ label, #toggle {
 
 .mesReferences li {
 
-    color: black;
+    color: white;
     }
 
 
@@ -446,14 +456,14 @@ label, #toggle {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 25px;
-    border-left: 1.2px solid #41ab6d; 
+    border-left: 1.2px solid white; 
     } 
 
 
 .meContacter {
 
     display: inline-block;
-    color:#097a5e;
+    color:white;
     float: right;
     position: relative;
     width: 35%;
@@ -509,7 +519,6 @@ label, #toggle {
     text-align: center;
     padding: 10px;
     height:150px;
-    background-image: linear-gradient(to right, #41ab6d, #097a5e);
     }
 
 
