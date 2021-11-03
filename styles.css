@@ -21,6 +21,7 @@
     font-style: normal;
     font-display: swap;
     }
+    
 
 @media (max-width: 1000px){
 
@@ -35,6 +36,7 @@
     h1.h1 {
         width: 100%;
         margin-right: 0;
+        margin-bottom: 10%;
     }
 
     a.breadcrumb-link  {
@@ -173,8 +175,15 @@
     .menu #toggle:checked + .main_pages {
         display: flex;       
     }
-}
 
+    a.breadcrumb-link  {
+    font-size: 10px;
+    }
+
+    ul.ancre a {
+    font-size: 7px;
+    }
+}
 /* ------ GENERAUX --------*/
 
 
@@ -417,8 +426,8 @@ label, #toggle {
 
     width: 80%;
     margin-left: 35px;
-    margin-bottom: 7%;
-    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-top: 7%;
     }
 
 
@@ -438,7 +447,7 @@ label, #toggle {
     width: auto;
     padding: 50px;
     margin-top: 70px;
-    margin-bottom: 100px;
+    margin-bottom: 10%;
     background-image: linear-gradient(to left, #41ab6d, #097a5e);
     }
 
