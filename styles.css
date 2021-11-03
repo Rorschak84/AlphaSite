@@ -37,6 +37,14 @@
         margin-right: 0;
     }
 
+    a.breadcrumb-link  {
+    font-size: 12px;
+    }
+
+    ul.ancre a {
+    font-size: 9px;
+    }
+
     section.Contacts {
         display: static;
         width: 100%;
@@ -62,6 +70,7 @@
         display: block;
         width: 100%;
         margin: 0;
+        margin-top: 25px;
         padding: 0;
         position: inherit;
     }
@@ -329,6 +338,66 @@ label, #toggle {
 
 
 
+.breadcrumb {
+    position: relative;
+    right: 200px;
+    width: auto;
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    }
+
+.breadcrumb-item {
+    display: inline-block;
+    }
+
+.breadcrumb-link  {
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;
+    color: #41ab6d;
+    }
+
+.breadcrumb-item a:hover {
+    text-decoration: underline
+    }
+
+.breadcrumb-item-active {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    }
+
+.breadcrumb-item:not(:last-of-type)::after {
+    content: '>';
+    margin: 0 5px;
+    color: #e8e8e8;
+    }
+
+.ancre  {
+    width: 130px;
+    bottom: 30px;
+    float: right;
+    padding-right: 35px;
+    display: block;
+    position: relative; 
+    }
+
+.ancre a {
+    float: right;
+    font-size: 11px;
+    display: block;
+    text-decoration: none;
+    color: #41ab6d;
+    }
+
+.ancre a:hover {
+    transition:0.3s;
+    opacity: 0.5;
+    }
+
+
 /* ------ MAIN --------*/
 
 
@@ -376,9 +445,9 @@ label, #toggle {
 
 .Prestations {
 
-    position: relative;
+    position: flex;
     width: 70%;
-    left: 30px;
+    margin-left: 50px;
     padding-top: 10px;
     padding-bottom: 30px;
     color: white;
