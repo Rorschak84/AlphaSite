@@ -184,6 +184,8 @@
     font-size: 7px;
     }
 }
+
+
 /* ------ GENERAUX --------*/
 
 
@@ -224,6 +226,7 @@ a {
 
 /* ------ HEADER --------*/
 
+
 #header {
 
     width: 1112,89px;
@@ -248,7 +251,10 @@ a {
     }
 
 
+
+
 /*------ MENU --------*/
+
 
 /* .menu { 
 
@@ -299,11 +305,11 @@ nav li {
     }
 */
 
+
 nav .main_pages a:hover {
     color:#097a5e;
     background:white;
     }
-
 
 nav 
 {
@@ -319,7 +325,7 @@ nav .main_pages
     justify-content: space-around;
     align-items: center;
 }
- 
+
 nav .main_pages a 
 {
     margin-top: 50px;
@@ -340,12 +346,9 @@ nav .main_pages a
     transition:0.35s all;
 }
 
-
 label, #toggle {
     display: none;
 }
-
-
 
 .breadcrumb {
     position: relative;
@@ -405,6 +408,8 @@ label, #toggle {
     transition:0.3s;
     opacity: 0.5;
     }
+
+
 
 
 /* ------ MAIN --------*/
@@ -489,11 +494,14 @@ label, #toggle {
     }
 
 
+
+
 /* ---  Contacts ---*/
 
-.Contacts {
 
-    height: 255.16px;
+#Contacts {
+
+    height: 350px;
     margin-left: 100px;
     margin-right: 100px;
     padding-bottom: 75px
@@ -508,12 +516,10 @@ label, #toggle {
     padding-bottom: 25px;
     }
 
-
 .mesReferences li {
 
     color: black;
     }
-
 
 .vertical { 
     position: relative;
@@ -527,7 +533,6 @@ label, #toggle {
     border-left: 1.2px solid #41ab6d; 
     } 
 
-
 .meContacter {
 
     display: inline-block;
@@ -540,13 +545,11 @@ label, #toggle {
     padding-bottom: 25px;
     }
 
-
 .meContacter a, li {
 
     margin-left: -3px;
     text-decoration: none;
     }
-
 
 .meContacter a:hover {
 
@@ -596,6 +599,7 @@ label, #toggle {
     color: white;
     text-decoration: none;
     }
+
 
 .contenu a:hover {
 

@@ -2,12 +2,11 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8"/>
-
-<title>OVEHA</title>
+<title>Plan du site - OVEHA EXPERIENCE</title>
 <meta name= "Auteurs : Tom Sokcic (SOK) et Simon Langlais">
-<meta name="description" content="plan du site d'OVEHA EXPERIENCE">
+<meta name="description" content="OVEHA EXPERIENCE">
 
-<link rel="stylesheet" type="text/css" href="../styles.css">
+<link rel="stylesheet" type="text/css" href="stylesPlanSite.css">
 
 <!-- <script type="text/javascript" src="script.js"></script> -->
 
@@ -23,13 +22,13 @@
 
 <!-- HEADER -->
 
-    <header id="header" alt="En-tête">
+    <header id="header">
 
             <div class="Container">  
 
                     <div class="oveha-logo">
                          <a href="../Accueil.html" title="Retour à l'accueil">
-                                <img src="../image/logo-blanc-fond-transparent.png" alt="Logo de Oveha Expérience. Le logo représente, sur un fond  en dégradé de vert, un individu, bras écartés, qui repousse des barrières de chaque côté." width="220" height="94,5">
+                                <img src="../image/logo-blanc-fond-transparent.png" alt="Logo de Oveha Expérience. Le logo représente, sur un fond en dégradé de vert, un individu, bras écartés, qui repousse des barrières de chaque côté." width="220" height="94,5">
                          </a>
                     </div>
 
@@ -39,96 +38,95 @@
                                 <input type="checkbox" id="toggle">
                                 <div class="main_pages">
                                         <a href="quiSuisJe.html"> Qui suis-je ? </a>
-                                        <a href="#FormationsId"> Formations </a>
-                                        <a href="#"> Ateliers </a>
-                                        <a href="#"> Conseil </a>
+                                        <a href="../Accueil.html#Formations"> Formations </a>
+                                        <a href="ateliers.html"> Atelier </a>
+                                        <a href="conseil.html"> Conseil </a>
                                 </div>               
                             </nav>
                     </div>
             </div>
-    </header>  
+    </header>
+
+
+
+<!-- BREADCRUMB -->
+
+    <nav aria-label="fil d'ariane">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item" aria-current="page"><a href="../Accueil.html" class="breadcrumb-link"> Accueil </a></li>
+        <li class="breadcrumb-item-active" aria-current="page"><a href="planSite.html" class="breadcrumb-link"> Plan du site </a></li>
+      </ol>
+    </nav>
+
+    <ul class="ancre">
+        <li> <a href="#main"> Aller au contenu <li></a>
+        <li> <a href="#footer"> Aller au pied de page <li></a>
+      </ul>  
 
 
 
 <!-- MAIN -->
 
-    <main id="main" alt="Contenu Principal">
+    <main id="main">
+                                     
+            <section class="Principal">   
+
+                <h1>PLAN DU SITE</h1>  
+                    <hr>        
+                    <ol class="Liens">
                         
-                        
-                        <section>   
-                        <h1>Plan du Site</h1>  
-                        
-                        <ul>
-                                <li><a href="../Accueil.html">Accueil </a><br /></li>
-                                <li><a href="quiSuisJe.html"> Qui suis-je ?</a><br/></li>
-                                <h3>Formations</h3>
-                                    <li><a href="formationNumérique.html">Formations concernant l'accessibilité numérique </a><br /></li>
-                                    <li><a href="formationServicesALaPersonne.html">Formations autour du thème du handicap </a><br /></li>
-                                </li>
-                                <li><a href="ateliersConférences.html"> Ateliers de sensibilisation et Conférences</a><br/></li>
-                                <li><a href="prestationsConseils.html">Prestations de conseil </a><br/></li>
-                                <li><a href="mentions-legales.html">Mentions Légales </a><br/></li>
-                                <li><a href="planSite.html">Plan du Site </a><br/></li>
-                                <li><a href="aideAccessibilite.html">Aide et Accessibilité </a><br/></li>
-                        
-                          </ul>
-                        </section>
+                        <li> <a href="../Accueil.html">Accueil </a></li>
+                        <li> <a href="quiSuisJe.html"> Qui suis-je ?</a></li>
+
+                            <h3>Formations</h3>
+                                <li><a href="formationNumérique.html">Formations concernant l'accessibilité numérique </a></li>
+                                <li><a href="formationServicesALaPersonne.html">Formations autour du thème du handicap </a></li>
+                                <li><a href="ateliers.html"> Atelier de sensibilisation et Conférence</a></li>                                  
+                                <li><a href="conseil.html">Prestations de conseil </a></li>
+
+                            <h3>Annexes</h3>  
+                                <li><a href="planSite.html">Plan du Site </a></li>
+                                <li><a href="aideAccessibilité.html">Aide et Accessibilité </a></li>
+                                <li><a href="mentions-legales.html">Mentions Légales </a></li>
+                    
+                      </ol>
+
+            </section>
 
 
 	
-                        <section class="Contacts">
+            <section id="Contacts">
+               
+                    <div class="meContacter">
 
-                                <div class="mesReferences">
-
-                                        <h2> Mes références </h2>
-                                            <ul class="references">
-                                                <li> ACAF MSA du Vaucluse </li>
-                                                <li> CREAI PACA corse </li>
-                                                <li> Reso Solution </li>
-                                                <li> Université d’Avignon </li>
-                                            </ul> </br>
-                                </div>
-
-
-                                <div class="vertical"> 
-                                </div>
-
-
-                                <div class="meContacter">
-
-                                        <h1> Contactez moi </h1>
-                                            <ul class="contacts">
-                                                 
-                                                <li class="Telephone"> <a href="tel:+685933059"> 0685933059 </a> </li> 
-                                                <li class="Mail"> <a href="mailto:contact@oveha.fr"> contact@oveha.fr </a> </li>
-                                                <li class="Linkedin"> <a href="https://www.linkedin.com/in/christine-langlais-98a1608b/"> Linkedin </a> </li>
-                                                
-                                            </ul>
-                                </div>
-
-                        </section>        
+                            <h1> Contactez moi </h1>
+                                <ul class="contacts">                                    
+                                    <li class="Telephone"> <a href="tel:+685933059"> 0685933059 </a> </li> 
+                                    <li class="Mail"> <a href="mailto:contact@oveha.fr"> contact@oveha.fr </a> </li>
+                                    <li class="Linkedin"> <a href="https://www.linkedin.com/in/christine-langlais-98a1608b/"> Linkedin </a> </li>
+                                </ul>
+                    </div>
+            </section>        
     </main>
         
 
 
 <!-- FOOTER -->
 
-    <footer id="footer" alt="Pied de page">
+    <footer id="footer">
         
         <div class="contenu"> 
 
                 <div class="Legal">
 
-                    <p class="PlanduSite"> <a href="planSite.html">Plan du site</a> </p>
-                    <p class="Accessibilité"> <a href="aideAccessibilite.html">Aide et accessibilité</a> </p>
-                    <p class="Crédits"> <a href="mentions-legales.html">Crédits et Mentions</a> </p>
+                    <p class="PlanduSite"> <a href="planSite.html"> Plan du site </a></p>
+                    <p class="Accessibilité"> <a href="aideAccessibilité.html"> Aide et accessibilité </a></p>
+                    <p class="Crédits"> <a href="mentions-legales.html"> Crédits et Mentions </a></p>
 
                 </div>
         </div>
     </footer>
     
 
-
 </body>
 </html>
-

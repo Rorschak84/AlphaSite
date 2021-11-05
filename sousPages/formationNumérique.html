@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 <meta charset="UTF-8"/>
-<title>OVEHA</title>
+<title>Formation Numérique - OVEHA EXPERIENCE</title>
 <meta name= "Auteurs : Tom Sokcic (SOK) et Simon Langlais">
 <meta name="description" content="OVEHA EXPERIENCE">
 
@@ -28,7 +28,7 @@
 
                     <div class="oveha-logo">
                          <a href="../Accueil.html" title="Retour à l'accueil">
-                                <img src="../image/logo-blanc-fond-transparent.png" alt="Logo de Oveha Expérience. Le logo représente, sur un fond  en dégradé de vert, un individu, bras écartés, qui repousse des barrières de chaque côté." width="220" height="94,5">
+                                <img src="../image/logo-blanc-fond-transparent.png" alt="Logo de Oveha Expérience. Le logo représente, sur un fond en dégradé de vert, un individu, bras écartés, qui repousse des barrières de chaque côté." width="220" height="94,5">
                          </a>
                     </div>
 
@@ -37,10 +37,10 @@
                                 <label for="toggle">☰</label>
                                 <input type="checkbox" id="toggle">
                                 <div class="main_pages">
-                                        <a href="#"> Qui suis-je ? </a>
-                                        <a href="#Formations"> Formations </a>
-                                        <a href="#"> Ateliers </a>
-                                        <a href="#"> Conseil </a>
+                                        <a href="quiSuisJe.html"> Qui suis-je ? </a>
+                                        <a href="../Accueil.html#Formations"> Formations </a>
+                                        <a href="ateliers.html"> Atelier </a>
+                                        <a href="conseil.html"> Conseil </a>
                                 </div>               
                             </nav>
                     </div>
@@ -49,11 +49,26 @@
 
 
 
+<!-- BREADCRUMB -->
+
+    <nav aria-label="fil d'ariane">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item" aria-current="page"><a href="../Accueil.html" class="breadcrumb-link"> Accueil </a></li>
+        <li class="breadcrumb-item-active" aria-current="page"><a href="formationNumérique.html" class="breadcrumb-link"> Formation Numérique </a></li>
+      </ol>
+    </nav>
+
+    <ul class="ancre">
+        <li> <a href="#main"> Aller au contenu <li></a>
+        <li> <a href="#footer"> Aller au pied de page <li></a>
+      </ul>
+
+
+
 <!-- MAIN -->
 
-    <main id="main" alt="Contenu Principal">
+    <main id="main">
             
-
             <section>   
             
             <h1 class="h1"> Des formations pour servir l’intégration de vos collaborateurs RQTH et votre communication </h1>
@@ -93,40 +108,22 @@
             sous-traitance handicap, depuis le 28 janvier 2016,grâce à l’action de l’association h’up
             entrepreneurs (anciennement UPTIH). Cette possibilité est reconnue également depuis le 1 er janvier
             2020, aux TIH en portage salarial. </br>
-             <a href="#PiedPageId">Contactez-moi pour en savoir davantage sur la déduction</a></br>
             
             </p>
             </section>
 
 
-            <section class="Contacts">
-
-                    <div class="mesReferences">
-
-                            <h2> Mes références </h2>
-                                <ul class="references">
-                                    <li> ACAF MSA du Vaucluse </li>
-                                    <li> CREAI PACA corse </li>
-                                    <li> Reso Solution </li>
-                                    <li> Université d’Avignon </li>
-                                </ul> </br>
-                    </div>
-
-
-                    <div class="vertical"> 
-                    </div>
-
+            <section id="Contacts">
 
                     <div class="meContacter">
 
                             <h1> Contactez moi </h1>
                                 <ul class="contacts">
-                                    <li class="Linkedin"> <a href="https://www.linkedin.com/in/christine-langlais-98a1608b/"> Linkedin </a> </li> 
                                     <li class="Telephone"> <a href="tel:+685933059"> 0685933059 </a> </li> 
                                     <li class="Mail"> <a href="mailto:contact@oveha.fr"> contact@oveha.fr </a> </li>
+                                    <li class="Linkedin"> <a href="https://www.linkedin.com/in/christine-langlais-98a1608b/"> Linkedin </a> </li> 
                                 </ul>
                     </div>
-
             </section>        
     </main>
         
@@ -140,16 +137,14 @@
 
                 <div class="Legal">
 
-                    <p class="PlanduSite"> <a href="sousPages/planSite.html">Plan du site</a> </p>
-                    <p class="Accessibilité"> <a href="sousPages/aideAccessibilite.html">Aide et accessibilité</a> </p>
-                    <p class="Crédits"> <a href="sousPages/mentionsLegales.html">Crédits et Mentions</a> </p>
+                    <p class="PlanduSite"> <a href="planSite.html"> Plan du site </a></p>
+                    <p class="Accessibilité"> <a href="aideAccessibilité.html"> Aide et accessibilité </a></p>
+                    <p class="Crédits"> <a href="mentions-legales.html"> Crédits et Mentions </a></p>
 
                 </div>
         </div>
     </footer>
     
 
-
 </body>
 </html>
-
