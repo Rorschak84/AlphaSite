@@ -1,556 +1,559 @@
 
-@font-face {
 
-    font-family: 'Poppins-Light';
-    src: url('../fonts/Poppins-Light.woff2') format('woff2'),
-        url('../fonts/Poppins-Light.woff') format('woff'),
-        url('../fonts/Poppins-Light.ttf') format('truetype');
-    font-weight: 300;    
-    font-style: normal;
-    font-display: swap;
-    }
+/* ------ typographies ----- */
 
+    @font-face {
+    
+        font-family: 'Poppins-Light';
+        src: url('../fonts/Poppins-Light.woff2') format('woff2'),
+            url('../fonts/Poppins-Light.woff') format('woff'),
+            url('../fonts/Poppins-Light.ttf') format('truetype');
+        font-weight: 300;    
+        font-style: normal;
+        font-display: swap;
+        }
+    
+    
+    @font-face {
+    
+        font-family: 'CenturyGothic-Bold';
+        src: url('../fonts/CenturyGothic-Bold.woff2') format('woff2'),
+            url('../fonts/CenturyGothic-Bold.woff') format('woff'),
+            url('../fonts/CenturyGothic-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+        }
+        
+/* ------ responsive ------- */
 
-@font-face {
-
-    font-family: 'CenturyGothic-Bold';
-    src: url('../fonts/CenturyGothic-Bold.woff2') format('woff2'),
-        url('../fonts/CenturyGothic-Bold.woff') format('woff'),
-        url('../fonts/CenturyGothic-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+    @media (max-width: 1000px){
+    
+        div.menu nav a {
+            width: 100px;
+            font-size: 12px;
+        }
     }
     
-
-@media (max-width: 1000px){
-
-    div.menu nav a {
-        width: 100px;
+    @media (max-width: 940px){
+    
+        h1.h1 {
+            width: 100%;
+            margin-right: 0;
+            margin-bottom: 10%;
+        }
+    
+        a.breadcrumb-link  {
         font-size: 12px;
+        }
+    
+        ul.ancre a {
+        font-size: 9px;
+        }
+    
+        section.Contacts {
+            display: static;
+            width: 100%;
+            margin-right: 0px;
+            margin-left: 0px;
+            padding: none;
+            position: inherit;
+            float: unset;
+            padding-bottom: 170px;
+        }
+    
+    
+        div.meContacter {
+            text-align: center;
+            display: block;
+            width: 100%;
+            margin: 0;
+            margin-top: 25px;
+            padding: 0;
+            position: inherit;
+        }
+    
+        li.Linkedin {
+            width: 100%;
+            margin: 0;
+            padding: 0; }
+    
+        li.Telephone {
+            width: 100%;
+            margin: 0;
+            padding: 0;}
+    
+        li.Mail {
+            width: 100%;
+            margin: 0;
+            padding: 0;}
+    
+    
+        div.Legal {
+            font-size: 11px;
+        }
+    
+        p.PlanduSite {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    
+         p.Accessibilité {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    
+         p.Crédits {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    
+        footer#footer {
+            height:95px;
+        }
+    
+        div.contenu {
+            height:95px;
+        }
+    
+        div.Legal {
+            padding-top:25px;
+            height:60px;
+        }
     }
-}
+    
+    @media (max-width: 700px) {
+        
+        nav {
+        height: 60px;
+        }
+     
+        div .menu nav .main_pages {
+            position:absolute;
+            display: none;
+            flex-direction: column;
+            background-image: linear-gradient(to left, #41ab6d, #097a5e);
+            height: 450px;
+            width: 100%;
+            margin-top: 24px;
+            padding-bottom: 40px;
+        }
+    
+        div .menu nav .main_pages a {
+            color: white;
+            width: 50%;
+        }
+    
+        div .menu nav .main_pages a:hover {
+            background: white;
+            color: #097a5e;
+        }
+    
+        .menu label 
+        {
+            width: 30px;
+            display: flex;
+            padding-top: 25px;
+            padding-left: 60px;
+            margin: 0 auto;
+            font-size: 30px;
+            color: white;
+            cursor: pointer;
+        }
+    
+        .menu #toggle:checked + .main_pages {
+            display: flex;       
+        }
+    
+        a.breadcrumb-link  {
+        font-size: 10px;
+        }
+    
+        ul.ancre a {
+        font-size: 7px;
+        }
+    }
 
-@media (max-width: 940px){
 
-    h1.h1 {
+/* ------ GENERAUX --------- */
+
+
+    body {
+        
+        font-family: "Poppins-Light","Modern Sans", "Verdana";
+        margin:0;
+        }
+    
+    p, q, a {
+       
+        font-family: "Poppins-Light";
+        }
+    
+    
+    h1, h2, h3 {   
+        
+        font-family: "CenturyGothic-Bold";
+        }
+    
+    
+    ul {
+    
+        margin:0;
+        padding:0;
+        list-style: none;
+        overflow:hidden;
+        }
+    
+    
+    a {
+        display:block;
+        //text-indent: -1000px;
+        }
+
+
+
+
+/* ------ HEADER ----------- */
+
+
+    #header {
+    
+        width: 1112,89px;
+        height: 100px;
+        }
+    
+    
+    .Container {
+    
+        text-align: right;
+        height: 100px;
+        background-image: linear-gradient(to right, #41ab6d, #097a5e);
+        }
+    
+    
+    .oveha-logo {
+    
+        margin-left: 10px ;
+        float:left;
+        height : 94,5px;
+        display: inline-block, vertical-align: middle;
+        }
+
+/* ------ MENU ------------- */
+
+
+    /* .menu { 
+    
         width: 100%;
-        margin-right: 0;
-        margin-bottom: 10%;
-    }
-
-    a.breadcrumb-link  {
-    font-size: 12px;
-    }
-
-    ul.ancre a {
-    font-size: 9px;
-    }
-
-    section.Contacts {
-        display: static;
-        width: 100%;
-        margin-right: 0px;
-        margin-left: 0px;
-        padding: none;
-        position: inherit;
-        float: unset;
-        padding-bottom: 170px;
-    }
-
-
-    div.meContacter {
+        height: 100px;
+        }
+    
+    
+    .menu nav {
+        position: relative;
+        top: 64px;
+        right: 50px;
+        display: inline-block;
+        }
+    
+    
+    nav ul {
+    
+        float: middle;
+        width: auto;
+        height: 36px;
+        }
+    
+    
+    nav li {
+    
+        display: inline-block;
+        float: left;
+        }
+    
+    
+    .menu nav a {
+    
+        font-size: 12px;
+        border-radius: 3px;
+        display: inline-block;
+        width:180px;
+        height: 36px;
+        background:transparent  ;
+        color:white;
+        text-decoration:none;
+        line-height:36px;
         text-align: center;
-        display: block;
-        width: 100%;
-        margin: 0;
-        margin-top: 25px;
-        padding: 0;
-        position: inherit;
-    }
-
-    li.Linkedin {
-        width: 100%;
-        margin: 0;
-        padding: 0; }
-
-    li.Telephone {
-        width: 100%;
-        margin: 0;
-        padding: 0;}
-
-    li.Mail {
-        width: 100%;
-        margin: 0;
-        padding: 0;}
-
-
-    div.Legal {
-        font-size: 11px;
-    }
-
-    p.PlanduSite {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-     p.Accessibilité {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-     p.Crédits {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    footer#footer {
-        height:95px;
-    }
-
-    div.contenu {
-        height:95px;
-    }
-
-    div.Legal {
-        padding-top:25px;
-        height:60px;
-    }
-}
-
-@media (max-width: 700px) {
+        -webkit-transition:1s all;
+        -moz-transition:1s all;
+        -o-transition:1s all;
+        transition:0.7s all;
+        }
+    */
     
-    nav {
-    height: 60px;
-    }
- 
-    div .menu nav .main_pages {
-        position:absolute;
-        display: none;
-        flex-direction: column;
-        background-image: linear-gradient(to left, #41ab6d, #097a5e);
-        height: 450px;
-        width: 100%;
-        margin-top: 24px;
-        padding-bottom: 40px;
-    }
-
-    div .menu nav .main_pages a {
-        color: white;
-        width: 50%;
-    }
-
-    div .menu nav .main_pages a:hover {
-        background: white;
-        color: #097a5e;
-    }
-
-    .menu label 
+    
+    nav .main_pages a:hover {
+        color:#097a5e;
+        background:white;
+        }
+    
+    nav 
     {
-        width: 30px;
-        display: flex;
-        padding-top: 25px;
-        padding-left: 60px;
         margin: 0 auto;
-        font-size: 30px;
+        marign
+        width: 30%;
+        height: 50px;
+    }
+     
+    nav .main_pages 
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    nav .main_pages a 
+    {
+        margin-top: 50px;
+        line-height:36px;
+        border-radius: 5px;
+        font-size: 14px;
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 50px;
+        text-decoration: none;
+        font-family: Poppins-Light, sans-serif;
         color: white;
-        cursor: pointer;
+        -webkit-transition:0.35s all;
+        -moz-transition:0.35s all;
+        -o-transition:0.35s all;
+        transition:0.35s all;
     }
-
-    .menu #toggle:checked + .main_pages {
-        display: flex;       
-    }
-
-    a.breadcrumb-link  {
-    font-size: 10px;
-    }
-
-    ul.ancre a {
-    font-size: 7px;
-    }
-}
-
-
-/* ------ GENERAUX --------*/
-
-
-body {
     
-    font-family: "Poppins-Light","Modern Sans", "Verdana";
-    margin:0;
+    label, #toggle {
+        display: none;
     }
 
-p, q, a {
-   
-    font-family: "Poppins-Light";
-    }
+/* ------ FIL ARIANE ------- */
 
-
-h1, h2, h3 {   
+    .breadcrumb {
+        position: relative;
+        right: 200px;
+        width: auto;
+        display: inline-block;
+        text-decoration: none;
+        list-style: none;
+        padding: 10px;
+        }
     
-    font-family: "CenturyGothic-Bold";
-    }
+    .breadcrumb-item {
+        display: inline-block;
+        }
+    
+    .breadcrumb-link  {
+        font-size: 14px;
+        display: inline-block;
+        text-decoration: none;
+        color: #41ab6d;
+        }
+    
+    .breadcrumb-item a:hover {
+        text-decoration: underline
+        }
+    
+    .breadcrumb-item-active {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        }
+    
+    .breadcrumb-item:not(:last-of-type)::after {
+        content: '>';
+        margin: 0 5px;
+        color: #41ab6d;
+        }
+    
+    .ancre  {
+        width: 130px;
+        bottom: 30px;
+        float: right;
+        padding-right: 35px;
+        display: block;
+        position: relative; 
+        }
+    
+    .ancre a {
+        float: right;
+        font-size: 11px;
+        display: block;
+        text-decoration: none;
+        color: #41ab6d;
+        }
+    
+    .ancre a:hover {
+        transition:0.3s;
+        opacity: 0.5;
+        }
+
+
+
+/* ------ MAIN ------------- */
+
+
+    #main {
+        position:flex;
+        min-height:100%;
+        width: 80%;
+        margin:0 auto;
+        padding: 0 10px;
+        max-width:1280px;
+        }
+    
+    
+    
+    .h1 {
+        margin-bottom: 7%;
+        width: 90%;
+        font-size: 42px;
+        }
+    
+    
+    .Principal {
+        width: 80%;
+        margin-left: 35px;
+        margin-bottom: 7%;
+        margin-top: 7%;
+        }
+
+
+    .Conférence {
+        margin-bottom: 5%;
+        margin-top: 5%;
+    
+    
+        }
+    
+    .Atelier {
+        margin-bottom: 5%;
+        margin-top: 5%;
+    
+        }
+    
+    .OETH {
+        margin-bottom: 10%;
+        margin-top: 8%;
+    
+        }
+
+/* ------ Contacts --------- */
+
 
-
-ul {
-
-    margin:0;
-    padding:0;
-    list-style: none;
-    overflow:hidden;
-    }
-
-
-a {
-    display:block;
-    //text-indent: -1000px;
-    }
-
-
-
-
-/* ------ HEADER --------*/
-
-
-#header {
-
-    width: 1112,89px;
-    height: 100px;
-    }
-
-
-.Container {
-
-    text-align: right;
-    height: 100px;
-    background-image: linear-gradient(to right, #41ab6d, #097a5e);
-    }
-
-
-.oveha-logo {
-
-    margin-left: 10px ;
-    float:left;
-    height : 94,5px;
-    display: inline-block, vertical-align: middle;
-    }
-
-
-
-
-/*------ MENU --------*/
-
-
-/* .menu { 
-
-    width: 100%;
-    height: 100px;
-    }
-
-
-.menu nav {
-    position: relative;
-    top: 64px;
-    right: 50px;
-    display: inline-block;
-    }
-
-
-nav ul {
-
-    float: middle;
-    width: auto;
-    height: 36px;
-    }
-
-
-nav li {
-
-    display: inline-block;
-    float: left;
-    }
-
-
-.menu nav a {
-
-    font-size: 12px;
-    border-radius: 3px;
-    display: inline-block;
-    width:180px;
-    height: 36px;
-    background:transparent  ;
-    color:white;
-    text-decoration:none;
-    line-height:36px;
-    text-align: center;
-    -webkit-transition:1s all;
-    -moz-transition:1s all;
-    -o-transition:1s all;
-    transition:0.7s all;
-    }
-*/
-
-
-nav .main_pages a:hover {
-    color:#097a5e;
-    background:white;
-    }
-
-nav 
-{
-    margin: 0 auto;
-    marign
-    width: 30%;
-    height: 50px;
-}
- 
-nav .main_pages 
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-nav .main_pages a 
-{
-    margin-top: 50px;
-    line-height:36px;
-    border-radius: 5px;
-    font-size: 14px;
-    width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50px;
-    text-decoration: none;
-    font-family: Poppins-Light, sans-serif;
-    color: white;
-    -webkit-transition:0.35s all;
-    -moz-transition:0.35s all;
-    -o-transition:0.35s all;
-    transition:0.35s all;
-}
-
-label, #toggle {
-    display: none;
-}
-
-.breadcrumb {
-    position: relative;
-    right: 200px;
-    width: auto;
-    display: inline-block;
-    text-decoration: none;
-    list-style: none;
-    padding: 10px;
-    }
-
-.breadcrumb-item {
-    display: inline-block;
-    }
-
-.breadcrumb-link  {
-    font-size: 14px;
-    display: inline-block;
-    text-decoration: none;
-    color: #41ab6d;
-    }
-
-.breadcrumb-item a:hover {
-    text-decoration: underline
-    }
-
-.breadcrumb-item-active {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    }
-
-.breadcrumb-item:not(:last-of-type)::after {
-    content: '>';
-    margin: 0 5px;
-    color: #41ab6d;
-    }
-
-.ancre  {
-    width: 130px;
-    bottom: 30px;
-    float: right;
-    padding-right: 35px;
-    display: block;
-    position: relative; 
-    }
-
-.ancre a {
-    float: right;
-    font-size: 11px;
-    display: block;
-    text-decoration: none;
-    color: #41ab6d;
-    }
-
-.ancre a:hover {
-    transition:0.3s;
-    opacity: 0.5;
-    }
-
-
-
-
-/* ------ MAIN --------*/
-
-
-#main {
-    position:flex;
-    min-height:100%;
-    width: 80%;
-    margin:0 auto;
-    padding: 0 10px;
-    max-width:1280px;
-    }
-
-
-
-.h1 {
-    margin-bottom: 7%;
-    width: 90%;
-    font-size: 42px;
-    }
-
-
-.Conférence {
-
-    }
-
-.Atelier {
-
-    }
-
-.OETH {
-
-    }
-
-
-
-
-/* ---  Contacts ---*/
-
-
-.Contacts {
-
-    height: 255.16px;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-bottom: 75px
-    }
-
-.mesReferences {
-
-    float: left;
-    width: 35%;
-    margin-left: 4%;
-    margin-right: 5%;
-    padding-bottom: 25px;
-    }
-
-
-.meContacter {
-
-    display: inline-block;
-    color:#097a5e;
-    float: right;
-    position: relative;
-    width: 35%;
-    margin-right: 5%;
-    margin-left: 5%;
-    padding-bottom: 25px;
-    }
-
-.meContacter a, li {
-
-    margin-left: -3px;
-    text-decoration: none;
-    }
-
-.meContacter a:hover {
-
-    transition:0.3s;
-    opacity: 0.5;
-    }
-
-.Linkedin {
-
-    width: 20%;
-    }
-
-.Telephone {
-
-    width: 40%;
-    }
-
-.Mail {
-
-    width: 45%;
-    }
-
-
-
-
-/* ------ FOOTER --------*/
-
-
-#footer {
-
-    width:100%;
-    height:170px;
-    }
-
-
-.contenu {
-
-    text-align: center;
-    padding: 10px;
-    height:150px;
-    background-image: linear-gradient(to right, #41ab6d, #097a5e);
-    }
-
-
-.contenu a {
-
-    color: white;
-    text-decoration: none;
-    }
-
-
-.contenu a:hover {
-
-    transition:0.3s;
-    opacity: 0.5;
-    }
-
-
-.Legal {
-    font-size: 16px;
-    padding-top: 50px;
-    }
-
-
-.PlanduSite {
-
-    margin: 20px;
-    display: inline-block;
-    }
-
-
-.Accessibilité {
-
-    margin: 20px;
-    display: inline-block;
-    }
-
-
-.Crédits {
-
-    margin: 20px;
-    display: inline-block;
-    }
+    .Contacts {
+    
+        position: flex;
+        height: 255.16px;
+        }
+    
+    
+    .meContacter {
+    
+        margin-left: 2%;
+        margin-bottom: 10%;
+        padding: 20px;
+        background: #41ab6d;
+        border-radius: 7px;
+        height: 150px;
+        color: white;
+        width: 25%;
+        }
+    
+    .meContacter a, li {
+        color: white;
+        text-decoration: none;
+        }
+    
+    
+    .meContacter a:hover {
+    
+        transition:0.3s;
+        opacity: 0.5;
+        }
+    
+    .Linkedin {
+    
+        width: 20%;
+        }
+    
+    .Telephone {
+    
+        width: 40%;
+        }
+    
+    .Mail {
+    
+        width: 45%;
+        }
+
+
+
+
+/* ------ FOOTER ----------- */
+
+
+    #footer {
+    
+        width:100%;
+        height:170px;
+        }
+    
+    
+    .contenu {
+    
+        text-align: center;
+        padding: 10px;
+        height:150px;
+        background-image: linear-gradient(to right, #41ab6d, #097a5e);
+        }
+    
+    
+    .contenu a {
+    
+        color: white;
+        text-decoration: none;
+        }
+    
+    
+    .contenu a:hover {
+    
+        transition:0.3s;
+        opacity: 0.5;
+        }
+    
+    
+    .Legal {
+        font-size: 16px;
+        padding-top: 50px;
+        }
+    
+    
+    .PlanduSite {
+    
+        margin: 20px;
+        display: inline-block;
+        }
+    
+    
+    .Accessibilité {
+    
+        margin: 20px;
+        display: inline-block;
+        }
+    
+    
+    .Crédits {
+    
+        margin: 20px;
+        display: inline-block;
+        }

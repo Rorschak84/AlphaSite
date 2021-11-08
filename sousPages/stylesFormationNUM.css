@@ -5,9 +5,9 @@
     @font-face {
     
         font-family: 'Poppins-Light';
-        src: url('fonts/Poppins-Light.woff2') format('woff2'),
-            url('fonts/Poppins-Light.woff') format('woff'),
-            url('fonts/Poppins-Light.ttf') format('truetype');
+        src: url('../fonts/Poppins-Light.woff2') format('woff2'),
+            url('../fonts/Poppins-Light.woff') format('woff'),
+            url('../fonts/Poppins-Light.ttf') format('truetype');
         font-weight: 300;    
         font-style: normal;
         font-display: swap;
@@ -17,14 +17,14 @@
     @font-face {
     
         font-family: 'CenturyGothic-Bold';
-        src: url('fonts/CenturyGothic-Bold.woff2') format('woff2'),
-            url('fonts/CenturyGothic-Bold.woff') format('woff'),
-            url('fonts/CenturyGothic-Bold.ttf') format('truetype');
+        src: url('../fonts/CenturyGothic-Bold.woff2') format('woff2'),
+            url('../fonts/CenturyGothic-Bold.woff') format('woff'),
+            url('../fonts/CenturyGothic-Bold.ttf') format('truetype');
         font-weight: bold;
         font-style: normal;
         font-display: swap;
         }
-    
+        
 /* ------ responsive ------- */
 
     @media (max-width: 1000px){
@@ -62,14 +62,6 @@
             padding-bottom: 170px;
         }
     
-        div.mesReferences {
-            text-align: center;
-            display: block;
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            position: inherit;
-        }
     
         div.meContacter {
             text-align: center;
@@ -96,13 +88,6 @@
             margin: 0;
             padding: 0;}
     
-        div.vertical {
-            display: none;
-        }
-    
-        section.Services {
-            margin-bottom: 75px;
-        }
     
         div.Legal {
             font-size: 11px;
@@ -136,7 +121,7 @@
             height:60px;
         }
     }
-
+    
     @media (max-width: 700px) {
         
         nav {
@@ -350,7 +335,7 @@
     label, #toggle {
         display: none;
     }
-    
+
 /* ------ FIL ARIANE ------- */
 
     .breadcrumb {
@@ -387,7 +372,7 @@
     .breadcrumb-item:not(:last-of-type)::after {
         content: '>';
         margin: 0 5px;
-        color: #e8e8e8;
+        color: #41ab6d;
         }
     
     .ancre  {
@@ -427,16 +412,6 @@
         }
     
     
-    /* --- Context --- */
-    
-    .Context {
-    
-        width: 80%;
-        margin-left: 35px;
-        margin-bottom: 10%;
-        margin-top: 7%;
-        }
-    
     
     .h1 {
         margin-bottom: 7%;
@@ -445,110 +420,71 @@
         }
     
     
-    /* ---  Services ---*/
+    .Principal {
+        width: 80%;
+        margin-left: 35px;
+        margin-bottom: 7%;
+        margin-top: 7%;
+        }
+
+
+    .fondamentaux {
+        margin-bottom: 5%;
+        margin-top: 5%;
+        }
     
-    .Services {
+
+    .connaissance {
+        margin-bottom: 5%;
+        margin-top: 5%;
+        }
+
+
+    .braille {
+        margin-bottom: 5%;
+        margin-top: 5%;
+        }
+
+
+    .sport {
+        margin-bottom: 5%;
+        margin-top: 5%;
+        }
     
-        border-radius: 7px;
-        position: relative;
-        width: auto;
-        padding: 50px;
-        margin-top: 70px;
+
+    .OETH {
         margin-bottom: 10%;
-        background-image: linear-gradient(to left, #41ab6d, #097a5e);
-        }
+        margin-top: 8%;
     
-    
-    .Prestations {
-    
-        position: flex;
-        width: 70%;
-        margin-left: 50px;
-        padding-top: 10px;
-        padding-bottom: 30px;
-        color: white;
-        }
-    
-    
-    .Liens a, li {
-    
-        width: auto;
-        margin-left: 7px;
-        padding-left: 3px;
-        position: relative;
-        left: 5px;
-        text-decoration: none;
-        list-style: none;
-        color: white;
-        border-radius: 3px;
-        -webkit-transition:0.3s all;
-        -moz-transition:0.3s all;
-        -o-transition:0.3s all;
-        transition:0.3s all;
-        }
-    
-    
-    .Liens a:hover {
-    
-        width: auto;
-        background:white;
-        color:#097a5e;
         }
 
 /* ------ Contacts --------- */
 
 
-    #Contacts {
+    .Contacts {
     
-        height: 350px;
-        margin-left: 100px;
-        margin-right: 100px;
-        padding-bottom: 75px
+        position: flex;
+        height: 255.16px;
         }
     
-    .mesReferences {
-    
-        float: left;
-        width: 35%;
-        margin-left: 4%;
-        margin-right: 5%;
-        padding-bottom: 25px;
-        }
-    
-    .mesReferences li {
-    
-        color: black;
-        }
-    
-    .vertical { 
-        position: relative;
-        top: 25px;
-        left: 35px;
-        height: 100px;
-        display: inline-block;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-right: 25px;
-        border-left: 1.2px solid #41ab6d; 
-        } 
     
     .meContacter {
     
-        display: inline-block;
-        color:#097a5e;
-        float: right;
-        position: relative;
-        width: 35%;
-        margin-right: 5%;
-        margin-left: 5%;
-        padding-bottom: 25px;
+        margin-left: 2%;
+        margin-bottom: 10%;
+        padding: 20px;
+        background: #41ab6d;
+        border-radius: 7px;
+        height: 150px;
+        color: white;
+        width: 25%;
         }
     
     .meContacter a, li {
-    
-        margin-left: -3px;
+        color: white;
         text-decoration: none;
         }
+    
     
     .meContacter a:hover {
     
