@@ -179,7 +179,7 @@
 
 
     body {
-        
+        background-image: linear-gradient(to right, #41ab6d, #097a5e);
         font-family: "Poppins-Light","Modern Sans", "Verdana";
         margin:0;
         }
@@ -356,7 +356,7 @@
         font-size: 14px;
         display: inline-block;
         text-decoration: none;
-        color: #41ab6d;
+        color: #e8e8e8;
         }
     
     .breadcrumb-item a:hover {
@@ -372,7 +372,7 @@
     .breadcrumb-item:not(:last-of-type)::after {
         content: '>';
         margin: 0 5px;
-        color: #41ab6d;
+        color: #e8e8e8;
         }
     
     .ancre  {
@@ -389,7 +389,7 @@
         font-size: 11px;
         display: block;
         text-decoration: none;
-        color: #41ab6d;
+        color: #e8e8e8;
         }
     
     .ancre a:hover {
@@ -403,6 +403,7 @@
 
 
     #main {
+        color: white;
         position:flex;
         min-height:100%;
         width: 80%;
@@ -410,10 +411,10 @@
         padding: 0 10px;
         max-width:1280px;
         }
-    
-    
+       
     
     .h1 {
+
         margin-bottom: 7%;
         width: 90%;
         font-size: 42px;
@@ -424,39 +425,84 @@
         width: 80%;
         margin-left: 35px;
         margin-bottom: 7%;
-        margin-top: 7%;
+        margin-top: 10%;
         }
 
+   .Principal a {
+        font-size: 15px;
+        text-decoration: none;
+        color: #e8e8e8;
+        }
+
+    .Principal a:hover {
+        text-decoration: underline;
+        transition:0.3s;
+        }
 
     .fondamentaux {
-        margin-bottom: 5%;
-        margin-top: 5%;
+        display: inline-block;
+        background: #1a8a64;
+        border-radius: 10px;
+        padding: 20px;
+        width: 80%;
+        margin-bottom: 10%;
+        margin-top: 10%;
         }
     
 
-    .connaissance {
-        margin-bottom: 5%;
-        margin-top: 5%;
+    .documents {
+        display: inline-block;
+        width: 80%;
+        float: right;
+        text-align: right;
+        background: #1a8a64;
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 10%;
+        margin-top: 10%;
         }
 
 
-    .braille {
-        margin-bottom: 5%;
-        margin-top: 5%;
+    .déficience {
+        display: inline-block;
+        width: 80%;
+        margin-bottom: 10%;
+        margin-top: 10%;
+        background: #1a8a64;
+        border-radius: 10px;
+        padding: 20px;
         }
 
-
-    .sport {
-        margin-bottom: 5%;
-        margin-top: 5%;
-        }
     
+    .garantie {
+        display: inline-block;
+        text-align: center;
+        font-size: 120%;
+        width: 85%;
+        padding: 20px;
+        margin-left: 10%;
+        margin-bottom: 13%;
+        margin-top: 17%;
+        }
+
 
     .OETH {
+        margin-left: 2%;
+        width: 87%;
         margin-bottom: 10%;
-        margin-top: 8%;
-    
+        margin-top: 20%;
         }
+
+    .OETH a {
+
+        text-decoration: none;
+        color: #e8e8e8;
+        }
+
+    .OETH a:hover {
+        transition:0.3s;
+        opacity: 0.5;
+    }
 
 /* ------ Contacts --------- */
 
@@ -469,19 +515,18 @@
     
     
     .meContacter {
-    
         margin-left: 2%;
-        margin-bottom: 10%;
+        margin-bottom: 15%;
         padding: 20px;
-        background: #41ab6d;
+        background: white;
         border-radius: 7px;
         height: 150px;
-        color: white;
+        color: #097a5e;
         width: 25%;
         }
     
     .meContacter a, li {
-        color: white;
+        color: #097a5e;
         text-decoration: none;
         }
     

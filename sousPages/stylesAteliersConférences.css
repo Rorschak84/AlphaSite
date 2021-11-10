@@ -424,28 +424,60 @@
         width: 80%;
         margin-left: 35px;
         margin-bottom: 7%;
-        margin-top: 7%;
+        margin-top: 10%;
+        }
+
+   .Principal a {
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+        }
+
+    .Principal a:hover {
+        text-decoration: underline;
+        transition:0.3s;
         }
 
 
     .Conférence {
+        color: white;
+        display: inline-block;
+        background: #41ab6d;
+        border-radius: 10px;
+        padding: 20px;
+        width: 55%;
         margin-bottom: 5%;
-        margin-top: 5%;
-    
-    
+        margin-top: 10%;
         }
     
     .Atelier {
-        margin-bottom: 5%;
+        color: white;
+        display: inline-block;
+        background: #41ab6d;
+        border-radius: 10px;
+        padding: 20px;
+        width: 55%;
+        margin-bottom: 10%;
         margin-top: 5%;
-    
         }
     
     .OETH {
-        margin-bottom: 10%;
-        margin-top: 8%;
-    
+        display: inline-block;
+        margin-left: 2%;
+        width: 87%;
+        margin-bottom: 5%;
+        margin-top: 10%;
         }
+
+    .OETH a {
+
+        text-decoration: none;
+        }
+
+    .OETH a:hover {
+        transition:0.3s;
+        opacity: 0.5;
+    }
 
 /* ------ Contacts --------- */
 

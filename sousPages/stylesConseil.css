@@ -423,28 +423,60 @@
         width: 80%;
         margin-left: 35px;
         margin-bottom: 7%;
-        margin-top: 7%;
+        margin-top: 10%;
+        }
+
+   .Principal a {
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+        }
+
+    .Principal a:hover {
+        text-decoration: underline;
+        transition:0.3s;
         }
 
 
     .Evaluation {
-        margin-bottom: 5%;
-        margin-top: 5%;
-    
-    
+        color: white;
+        display: inline-block;
+        background: #41ab6d;
+        border-radius: 10px;
+        padding: 20px;
+        width: 85%;
+        margin-bottom: 7%;
+        margin-top: 10%;
         }
     
     .Conseil {
-        margin-bottom: 5%;
-        margin-top: 5%;
-    
+        color: white;
+        display: inline-block;
+        background: #41ab6d;
+        border-radius: 10px;
+        padding: 20px;
+        width: 85%;
+        margin-bottom: 10%;
+        margin-top: 7%;
         }
     
     .OETH {
-        margin-bottom: 10%;
-        margin-top: 8%;
-    
+        display: inline-block;
+        margin-left: 2%;
+        width: 85%;
+        margin-bottom: 5%;
+        margin-top: 10%;
         }
+
+    .OETH a {
+
+        text-decoration: none;
+        }
+
+    .OETH a:hover {
+        transition:0.3s;
+        opacity: 0.5;
+    }
 
 /* ------ Contacts --------- */
 

@@ -413,13 +413,11 @@
     
     
     
-    
-    .h1 {
-        margin-bottom: 7%;
-        width: 90%;
-        font-size: 42px;
-        }
-    
+    hr {
+        display: inline-block;
+        border-top: 0px solid #41ab6d;
+        width: 350px;
+    }
     
     .Principal {
         width: 80%;
