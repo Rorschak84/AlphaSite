@@ -41,6 +41,10 @@
             height: 198px;
             display: block;
         }
+
+        section.Conclusion {
+            margin-bottom: 15%;
+        }
     }
     
     @media (max-width: 940px){
@@ -53,7 +57,11 @@
         ul.ancre a {
         font-size: 9px;
         }
-        
+
+        section.Conclusion {
+            margin-bottom: 25px ;
+        }
+
         section.Conclusion .p1 {
             font-size: 22px ;
         }
