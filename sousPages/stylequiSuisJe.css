@@ -53,7 +53,15 @@
         ul.ancre a {
         font-size: 9px;
         }
-    
+        
+        section.Conclusion .p1 {
+            font-size: 22px ;
+        }
+
+        section.Conclusion .p2 {
+            font-size: 20px ;
+        }
+
         section.Contacts {
             display: static;
             width: 100%;
@@ -65,20 +73,13 @@
             padding-bottom: 170px;
         }
     
-        div.mesReferences {
-            text-align: center;
-            display: block;
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            position: inherit;
-        }
     
         div.meContacter {
             text-align: center;
             display: block;
             width: 100%;
-            margin: 0;
+            margin-bottom: 100px;
+            margin-top: 25px;
             padding: 0;
             position: inherit;
         }
@@ -152,8 +153,8 @@
         img.photoChristine {
     
             margin: 0;
-            width: 121px;
-            height: 119px;
+            width: 181px;
+            height: 178px;
             display: block;
         }
     
@@ -192,6 +193,22 @@
     
         .menu #toggle:checked + .main_pages {
             display: flex;       
+        }
+
+        section.Conclusion .p1 {
+            font-size: 20px ;
+        }
+
+        section.Conclusion .p2 {
+            font-size: 18px ;
+        }
+
+        section.MiseEvidence {
+            position: relative;
+            left: -100px;
+            width: 100%;
+            font-size: 15px ;
+            margin-left: none;
         }
     }
 
@@ -396,8 +413,8 @@
         }
     
     .ancre  {
-        width: 130px;
-        bottom: 30px;
+        width: 140px;
+        bottom: 25px;
         float: right;
         padding-right: 35px;
         display: block;

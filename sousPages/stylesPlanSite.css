@@ -44,11 +44,11 @@
         }
     
         a.breadcrumb-link  {
-        font-size: 12px;
+            font-size: 12px;
         }
     
         ul.ancre a {
-        font-size: 9px;
+            font-size: 9px;
         }
     
         section.Contacts {
@@ -67,7 +67,7 @@
             text-align: center;
             display: block;
             width: 100%;
-            margin: 0;
+            margin-bottom: 100px;
             margin-top: 25px;
             padding: 0;
             position: inherit;
@@ -376,8 +376,8 @@
         }
     
     .ancre  {
-        width: 130px;
-        bottom: 30px;
+        width: 140px;
+        bottom: 25px;
         float: right;
         padding-right: 35px;
         display: block;
