@@ -423,7 +423,7 @@
     .Principal {
         width: 80%;
         margin-left: 35px;
-        margin-bottom: 7%;
+        margin-bottom: 3%;
         margin-top: 10%;
         }
 
@@ -443,7 +443,7 @@
         color: white;
         display: inline-block;
         background: #41ab6d;
-        border-radius: 10px;
+        border-radius: 15px;
         padding: 20px;
         width: 55%;
         margin-bottom: 5%;
@@ -454,7 +454,7 @@
         color: white;
         display: inline-block;
         background: #41ab6d;
-        border-radius: 10px;
+        border-radius: 15px;
         padding: 20px;
         width: 55%;
         margin-bottom: 10%;
@@ -465,7 +465,6 @@
         display: inline-block;
         margin-left: 2%;
         width: 87%;
-        margin-bottom: 5%;
         margin-top: 10%;
         }
 
@@ -491,11 +490,11 @@
     
     .meContacter {
     
-        margin-left: 2%;
+        margin-left: 4%;
         margin-bottom: 10%;
         padding: 20px;
         background: #41ab6d;
-        border-radius: 7px;
+        border-radius: 15px;
         height: 150px;
         color: white;
         width: 25%;

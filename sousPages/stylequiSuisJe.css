@@ -154,8 +154,16 @@
     
     @media (max-width: 700px) {
         
-        nav {
-        height: 60px;
+
+        #header {
+    
+            width: 700px;
+            height: 100px;
+        }
+
+       nav {
+
+            height: 60px;
         }
      
         img.photoChristine {
@@ -212,11 +220,17 @@
         }
 
         section.MiseEvidence {
+            
+            margin-top: 10%;
             position: relative;
             left: -100px;
             width: 100%;
             font-size: 15px ;
             margin-left: none;
+        }
+
+        .meContacter {
+            margin-left: 10%;
         }
     }
 
@@ -567,9 +581,9 @@
         display: block;
         color: white;
         width: 75%;
-        margin-left: 95px;
-        margin-bottom: 15%;
-        margin-top: 15%;
+        margin-left: 80px;
+        margin-bottom: 10%;
+        margin-top: 30%;
         }
     }
 
@@ -583,7 +597,7 @@
     
     
     .meContacter {
-        margin-left: 7%;
+        margin-left: 6%;
         margin-bottom: 10%;
         padding: 20px;
         background: white ;

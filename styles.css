@@ -138,9 +138,25 @@
     }
 
     @media screen and (max-width: 700px) {
-        
+
+        header #header {
+
+            width: 700px;
+            height: 100px;
+        }
+
+       main #main {
+
+            position: inherit;
+            min-height: 100%;
+            width: 100%;
+            margin:0 auto;
+            padding: 0px;
+            max-width: 700px;
+        }
+
         nav {
-        height: 60px;
+            height: 60px;
         }
      
         div .menu nav .main_pages {
@@ -181,12 +197,13 @@
         }
     
         a.breadcrumb-link  {
-        font-size: 10px;
+            font-size: 10px;
         }
     
         ul.ancre a {
-        font-size: 7px;
+            font-size: 7px;
         }
+
     }
 
 
@@ -418,7 +435,6 @@
 
 
     #main {
-        position:flex;
         min-height:100%;
         width: 80%;
         margin:0 auto;
@@ -445,7 +461,7 @@
         }
     
     .Context p {
-        font-size: 14px;
+        font-size: 15px;
         margin-left: 45px;
         }
     
@@ -453,7 +469,7 @@
     
     .Services {
     
-        border-radius: 7px;
+        border-radius: 15px;
         position: relative;
         width: auto;
         padding: 50px;
@@ -465,7 +481,6 @@
     
     .Prestations {
     
-        position: flex;
         width: 70%;
         margin-left: 50px;
         padding-top: 10px;
@@ -484,7 +499,7 @@
         text-decoration: none;
         list-style: none;
         color: white;
-        border-radius: 3px;
+        border-radius: 7px;
         -webkit-transition:0.3s all;
         -moz-transition:0.3s all;
         -o-transition:0.3s all;
