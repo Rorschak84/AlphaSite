@@ -125,11 +125,13 @@
     @media (max-width: 700px) {
         
         nav {
-        height: 60px;
+
+            height: 60px;
         }
      
         div .menu nav .main_pages {
-            position:absolute;
+
+            position: absolute;
             display: none;
             flex-direction: column;
             background-image: linear-gradient(to left, #41ab6d, #097a5e);
@@ -140,17 +142,19 @@
         }
     
         div .menu nav .main_pages a {
+
             color: white;
             width: 50%;
         }
     
         div .menu nav .main_pages a:hover {
+
             background: white;
             color: #097a5e;
         }
     
-        .menu label 
-        {
+        .menu label  {
+
             width: 30px;
             display: flex;
             padding-top: 25px;
@@ -162,10 +166,12 @@
         }
     
         .menu #toggle:checked + .main_pages {
+
             display: flex;       
         }
     
         a.breadcrumb-link  {
+
             font-size: 10px;
         }
     
@@ -300,23 +306,23 @@
         background:white;
         }
     
-    nav 
-    {
+    nav {
+
         margin: 0 auto;
         marign
         width: 30%;
         height: 50px;
     }
      
-    nav .main_pages 
-    {
+    nav .main_pages {
+
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
     
-    nav .main_pages a 
-    {
+    nav .main_pages a {
+
         margin-top: 50px;
         line-height:36px;
         border-radius: 5px;
@@ -336,12 +342,14 @@
     }
     
     label, #toggle {
+
         display: none;
     }
 
 /* ------ FIL ARIANE ------- */
 
     .breadcrumb {
+
         position: relative;
         right: 200px;
         width: auto;
@@ -352,10 +360,12 @@
         }
     
     .breadcrumb-item {
+
         display: inline-block;
         }
     
     .breadcrumb-link  {
+
         font-size: 14px;
         display: inline-block;
         text-decoration: none;
@@ -363,22 +373,26 @@
         }
     
     .breadcrumb-item a:hover {
+
         text-decoration: underline
         }
     
     .breadcrumb-item-active {
+
         display: inline-block;
         text-decoration: none;
         color: white;
         }
     
     .breadcrumb-item:not(:last-of-type)::after {
+
         content: '>';
         margin: 0 5px;
         color: #41ab6d;
         }
     
     .ancre  {
+
         width: 140px;
         bottom: 25px;
         float: right;
@@ -388,6 +402,7 @@
         }
     
     .ancre a {
+
         float: right;
         font-size: 11px;
         display: block;
@@ -396,6 +411,7 @@
         }
     
     .ancre a:hover {
+
         transition:0.3s;
         opacity: 0.5;
         }
@@ -406,6 +422,7 @@
 
 
     #main {
+
         position:flex;
         min-height:100%;
         width: 80%;
@@ -416,19 +433,22 @@
     
 
     hr {
-    display: inline-block;
-    border-top: 0px solid #41ab6d;
-    width: 350px;
+
+        display: inline-block;
+        border-top: 0px solid #41ab6d;
+        width: 350px;
     }
 
 
     .Principal {
+
         display: block;
         width: 80%;
         margin-left: 35px;
         margin-bottom: 7%;
         margin-top: 7%;
         }
+    
     
     .Design h3 {
         
