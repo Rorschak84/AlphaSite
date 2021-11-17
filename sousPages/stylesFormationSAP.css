@@ -208,6 +208,13 @@
         ul.ancre a {
         font-size: 7px;
         }
+
+        section.garantie {
+            max-width: 100%;
+            margin-left: inherit;
+            padding: inherit;
+
+        }
     }
 
     @media screen and (max-width: 600px) {
