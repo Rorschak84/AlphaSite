@@ -27,10 +27,16 @@
 
 /* ------ responsive ------- */
 
-    @media (max-width: 1000px){
+    @media screen and (max-width: 1000px){
+
+
+        header#header {
     
+            max-width: 1000px;
+        }
+
         div.menu nav a {
-            width: 100px;
+            width: 100%;
             font-size: 12px;
         }
     
@@ -47,9 +53,23 @@
         }
     }
     
-    @media (max-width: 940px){
+    @media screen and (max-width: 940px){
     
+
+        header#header {
     
+        max-width: 940px;
+        }
+
+
+        div.oveha-slogan {
+            margin-top: 25px;
+        }
+        div.oveha-slogan  img {
+            width: 100px;
+            height : 64px;
+        }
+
         a.breadcrumb-link {
         font-size: 12px;
         }
@@ -73,9 +93,9 @@
         section.Contacts {
             display: static;
             width: 100%;
-            margin-right: 0px;
-            margin-left: 0px;
-            padding: none;
+            margin-right: none;
+            margin-left: inherit;
+            padding: inherit;
             position: inherit;
             float: unset;
             padding-bottom: 170px;
@@ -88,7 +108,7 @@
             width: 100%;
             margin-bottom: 100px;
             margin-top: 25px;
-            padding: 0;
+            padding: inherit;
             position: inherit;
         }
     
@@ -152,20 +172,42 @@
         }
     }
     
-    @media (max-width: 700px) {
+    @media screen and (max-width: 700px) {
         
-
-        #header {
     
-            width: 700px;
+        div.oveha-slogan {
+            margin-top: 25px;
+        }
+        div.oveha-slogan  img {
+            width: 80px;
+            height : 57px;
+        }
+
+        header#header {
+
+            max-width: 700px;
             height: 100px;
         }
 
-       nav {
-
+        nav {
             height: 60px;
         }
-     
+        
+        h1.h1 {
+            margin-top: 250px;
+            width: 100%;
+            float: none;
+        }
+
+        section.Bio p {
+            width: 100%;
+            float: none;
+        }
+
+        p.développement {
+            margin-left: ;
+        }
+
         img.photoChristine {
     
             margin: 0;
@@ -175,24 +217,27 @@
         }
     
         div .menu nav .main_pages {
+            z-index: 1000;
             position:absolute;
             display: none;
             flex-direction: column;
-            background-image: linear-gradient(to left, #41ab6d, #097a5e);
+            background: white;
+            box-shadow: 0px 0px 7px 0.5px #498a7a;
             height: 450px;
             width: 100%;
-            margin-top: 24px;
+            margin-top: 40px;
+            border-radius: 15px;
             padding-bottom: 40px;
         }
     
         div .menu nav .main_pages a {
-            color: white;
+            color: #41ab6d;
             width: 50%;
         }
     
         div .menu nav .main_pages a:hover {
-            background: white;
-            color: #097a5e;
+            background: #41ab6d;
+            color: white ;
         }
     
         .menu label 
@@ -220,8 +265,7 @@
         }
 
         section.MiseEvidence {
-            
-            margin-top: 10%;
+            padding-bottom: 10%;
             position: relative;
             left: -100px;
             width: 100%;
@@ -232,9 +276,45 @@
         .meContacter {
             margin-left: 10%;
         }
+
+
+        a.breadcrumb-link  {
+            font-size: 10px;
+        }
+    
+        ul.ancre a {
+            font-size: 7px;
+        }
     }
 
+    @media screen and (max-width: 600px) {
 
+
+        header#header {
+            max-width: 600px;
+        }
+
+        a.breadcrumb-link {
+            font-size: 9px;
+        }
+
+        div.oveha-slogan  img {
+            display: none;
+        }
+
+        section.Conclusion {
+            padding-bottom:20%;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+
+        ul.ancre {
+            display:  none;
+        }
+    }
+
+    
 /* ------ GENERAUX --------- */
 
 
@@ -276,6 +356,16 @@
 
 /* ------ HEADER ----------- */
 
+
+    a[href^="#main"] {  
+
+        display: block;
+        text-align: center;
+        font-size: .1em;
+        opacity: 0;
+    }
+
+    
     #header {
     
         width: 1112,89px;
@@ -436,7 +526,7 @@
     
     .ancre  {
         width: 140px;
-        bottom: 25px;
+        bottom: 15px;
         float: right;
         padding-right: 35px;
         display: block;
@@ -479,7 +569,7 @@
     
         shadow: 1px 1px 12px #555;
         padding-left: 30px;
-        margin: 40px;
+        padding: 40px;
         width: 243px;
         height: 238px;
         display: inline-block;
@@ -669,7 +759,21 @@
         opacity: 0.5;
         }
     
-    
+
+    .oveha-slogan {
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 10px;
+        float: left;
+        display: inline-block, vertical-align: middle;
+        }
+
+    .oveha-slogan  img {
+        width: 123px;
+        height : 80px;
+    }
+
+
     .Legal {
         font-size: 16px;
         padding-top: 50px;
