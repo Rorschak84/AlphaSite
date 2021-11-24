@@ -38,6 +38,15 @@
             width: 100px;
             font-size: 12px;
         }
+
+        section.Dev {
+            margin-right: 40%; 
+        }
+
+        section.Structure  {
+            margin-right: 30%;
+        }
+    
     }
     
     @media screen and (max-width: 940px){
@@ -143,6 +152,11 @@
     @media screen and (max-width: 700px) {
 
 
+        section.Dev {
+            margin-right: 25%; 
+        }
+
+
         div.oveha-slogan {
             margin-top: 25px;
         }
@@ -216,6 +230,14 @@
     @media screen and (max-width: 600px) {
 
 
+        section.Dev {
+            margin-right: 25%; 
+        }
+
+        section.Structure  {
+            margin-right: 10%;
+        }
+
         header#header {
             max-width: 600px;
         }
@@ -230,6 +252,16 @@
     }
 
     @media screen and (max-width: 400px) {
+
+
+        section.Dev {
+            margin-right: inherit; 
+        }
+
+        section.Structure  {
+            margin-right: inherit;
+        }
+
 
         ul.ancre {
             display:  none;
@@ -385,7 +417,7 @@
     
     nav .main_pages a {
 
-        margin-top: 50px;
+        margin-top: 43px;
         line-height:36px;
         border-radius: 5px;
         font-size: 14px;
@@ -517,40 +549,44 @@
         margin-bottom: inherit;
         margin-top: none;
         }
+
     
+    .Editorial  {
+        display: inline;
+        padding-top: 2%;
+        }
+
+    .Structure  {
+        display: inline;
+        padding-top: 2%;
+        margin-right: 50%;
+        }
+
+
+    .OVH  {
+        display: inline;
+        padding-top: 2%;
+        margin-right: 63%;
+        }
+
+    .Créa  {
+        display: inline;
+        padding-top: 2%;
+        margin-right: 63%;
+        }
+
+
     .Dev {
-        width: 100%;
-        margin-top: 3%; 
+        display: inline;
+        padding-top: 2%;
+        margin-right: 63%; 
         }
-    
-    
-    .Design {
-        width: 100%;
-        display: inline-block;
-        }
-    
-    .web {
-        margin-left: 20px;
-        margin-right: 20px;
-        display: inline-block;
-        }
-    
-    .logo {
-        position: relative; 
-        margin-right: 20px;
-        display: inline-block;
-        }
-    
-    .hébergeur {
-        margin-left: 30px;
-        margin-right: 20px;
-        display: inline-block;
-        }
-    
-    
-    
+
+
     .Droits {
-        width: 100%;
+        display: inline;
+        padding-top: 2%;
+        margin-right: 10%;
     
         }
     
