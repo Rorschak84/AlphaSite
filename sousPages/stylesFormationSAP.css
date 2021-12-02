@@ -140,12 +140,66 @@
         }
     }
     
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 768px) {
+
+
+        main#main {
+            width: 90%;
+        }
+
+        section.Principal {
+            width: 100%;
+            margin-left: inherit;
+        }
+        h1.h1 {
+            width: inherit;
+            font-size: 32px;
+            margin: inherit;
+            padding: inherit;
+        }
+
+        section.fondamentaux {
+            width: 90%;
+            float: none;
+            margin: inherit;
+        }
+
+        section.connaissance {
+            text-align: right;
+            width: 90%;
+            float: none;
+            margin: inherit;
+        }
+
+        section.braille {
+            width: 90%;
+            float: none;
+            margin: inherit;
+        }
+
+        section.sport {
+            text-align: right;
+            width: 90%;
+            float: none;
+            margin: inherit;
+        }
+
+        section.garantie {
+            width: 85%;
+            font-size: 115%;
+            margin: inherit;
+        }
+
+        div.meContacter {
+            margin: inherit;
+            padding: 5px;
+        }
 
 
         div.oveha-slogan {
             margin-top: 25px;
         }
+
         div.oveha-slogan  img {
             width: 80px;
             height : 57px;
@@ -153,7 +207,7 @@
 
         header#header {
 
-            max-width: 700px;
+            max-width: 768px;
             height: 100px;
         }
 
@@ -202,18 +256,11 @@
         }
     
         a.breadcrumb-link  {
-        font-size: 10px;
+        font-size: 12px;
         }
     
         ul.ancre a {
-        font-size: 7px;
-        }
-
-        section.garantie {
-            max-width: 100%;
-            margin-left: inherit;
-            padding: inherit;
-
+        font-size: 9px;
         }
     }
 
@@ -225,18 +272,80 @@
         }
 
         a.breadcrumb-link {
-            font-size: 9px;
+            font-size: 10px;
         }
 
         div.oveha-slogan  img {
             display: none;
         }
-    }
-
-    @media screen and (max-width: 400px) {
 
         ul.ancre {
-            display:  none;
+            display: none;
+        }
+
+    }
+
+    @media screen and (max-width: 470px) {
+
+        h1.h1 {
+            font-size: 27px;
+        }       
+
+        section.Principal h2 {
+            font-size: 20px;
+        }
+
+        section.Principal p {
+            font-size: 13px;
+            ;
+        }
+        
+        section.fondamentaux {
+            margin: inherit;
+        }
+
+        section.garantie p {
+            font-size: 14px;
+        }
+
+        section.OETH p {
+            font-size: 14px;
+        }
+
+        a.breadcrumb-link {
+            font-size: 8px;
+        }
+
+        ol.breadcrumb {
+            margin-left: 15px;
+        }
+
+        section#Contacts {
+            position: relative;
+            right: 6px;
+        }
+
+    }
+
+    @media screen and (max-width: 409px) {
+
+        div.Legal {
+            font-size: 10px;
+        }
+
+        h1.h1 {
+            font-size: 24px;
+        }
+
+        ul.ancre {
+            display: none;
+        }
+
+        ol.breadcrumb{
+            padding: inherit;
+            margin-bottom: 20px;
+            right: inherit;
+            left: 15px;
         }
     }
 
@@ -307,7 +416,8 @@
     
     
     .oveha-logo {
-    
+        position: relative;
+        bottom: 7px;
         margin-left: 10px ;
         float:left;
         height : 94,5px;

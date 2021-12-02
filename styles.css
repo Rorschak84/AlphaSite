@@ -57,6 +57,7 @@
 
         h1.h1 {
             width: 100%;
+            font-size: 41px;
             margin-right: 0;
             margin-bottom: 10%;
         }
@@ -66,7 +67,7 @@
         }
     
         ul.ancre a {
-        font-size: 9px;
+        font-size: 10px;
         }
     
         section.Contacts {
@@ -123,7 +124,7 @@
         }
     
         div.Legal {
-            font-size: 11px;
+            font-size: 12px;
         }
     
         p.PlanduSite {
@@ -155,8 +156,55 @@
         }
     }
 
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 768px) {
 
+        main#main {
+            width: 90%;
+        }
+
+        h1.h1 {
+            width: inherit;
+            font-size: 32px;
+            margin: inherit;
+            padding: inherit;
+        }
+
+        section.Context {
+            margin-top: 12%;
+            width: 100%;
+            margin-left: inherit;
+            margin-bottom: 20%
+        }
+
+        section.Context h2 {
+            font-size: 20px;
+        }
+
+        section.Context blockquote {
+            font-size: 15px;
+        }
+
+        section.Context p {
+            font-size: 14px;
+            ;
+        }
+
+        section.Services {
+            padding: inherit;
+        }
+
+        div.Prestations {
+            width: 90%;
+            margin-left: 15px;
+        }
+
+        div.Prestations h2 {
+            font-size: 20px;
+        }
+
+        div.Prestations p, li {
+            font-size: 15px;
+        }
 
         div.oveha-slogan {
             margin-top: 25px;
@@ -168,7 +216,7 @@
 
         header#header {
 
-            max-width: 700px;
+            max-width: 768px;
             height: 100px;
         }
 
@@ -176,9 +224,9 @@
 
             position: inherit;
             min-height: 100%;
-            width: 100%;
-            margin: none;
-            padding: none;
+            width: 95%;
+            margin: inherit;
+            padding: inherit;
             max-width: 700px;
         }
 
@@ -226,13 +274,6 @@
             display: flex;       
         }
     
-        a.breadcrumb-link  {
-            font-size: 10px;
-        }
-    
-        ul.ancre a {
-            font-size: 7px;
-        }
     }
 
     @media screen and (max-width: 600px) {
@@ -242,9 +283,6 @@
             max-width: 600px;
         }
 
-        a.breadcrumb-link {
-            font-size: 9px;
-        }
 
         div.oveha-slogan  img {
             display: none;
@@ -259,10 +297,51 @@
         }
     }
 
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 436px) {
+
+        h1.h1 {
+            font-size: 27px;
+        }
+
+        section.Context blockquote {
+            font-size: 13px;
+        }
+
+        section.Context p {
+            font-size: 13px;
+            ;
+        }
+        
+        div.Prestations p, li {
+            font-size: 14px;
+        }
+
+
+        a.breadcrumb-link  {
+            font-size: 10px;
+        }
+    
+        ul.ancre a {
+            font-size: 9px;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+
+        div.Legal {
+            font-size: 10px;
+        }
+
+        h1.h1 {
+            font-size: 24px;
+        }
+
+        section.Context h2 {
+            font-size: 20px;
+        }
 
         ul.ancre {
-            display:  none;
+            display: none;
         }
     }
 
@@ -332,7 +411,8 @@
     
     
     .oveha-logo {
-    
+        position: relative;
+        bottom: 7px;
         margin-left: 10px ;
         float:left;
         height : 94,5px;

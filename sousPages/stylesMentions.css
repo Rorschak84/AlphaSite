@@ -75,7 +75,7 @@
         }
     
         ul.ancre a {
-        font-size: 9px;
+        font-size: 10px;
         }
     
         section.Contacts {
@@ -149,13 +149,30 @@
         }
     }
     
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 768px) {
+
+
+        main#main {
+            width: 90%;
+        }
+
+        section.Principal {
+            width: 100%;
+            margin-left: inherit;
+        }
+
+        section.Principal p,li {
+            font-size: 14px;
+        }
+
+        ol.Liens h2 {
+            font-size: 17px;
+        }
 
 
         section.Dev {
             margin-right: 25%; 
         }
-
 
         div.oveha-slogan {
             margin-top: 25px;
@@ -167,7 +184,7 @@
 
         header#header {
 
-            max-width: 700px;
+            max-width: 768px;
             height: 100px;
         }
 
@@ -218,12 +235,11 @@
         }
     
         a.breadcrumb-link  {
-
-            font-size: 10px;
+        font-size: 12px;
         }
     
         ul.ancre a {
-            font-size: 7px;
+        font-size: 10px;
         }
     }
 
@@ -251,7 +267,7 @@
         }
     }
 
-    @media screen and (max-width: 400px) {
+    @media screen and (max-width: 436px) {
 
 
         section.Dev {
@@ -262,9 +278,41 @@
             margin-right: inherit;
         }
 
+        section.Principal p {
+            font-size: 13px;
+            ;
+        }
+
+        ol.Liens h2 {
+            font-size: 15px;
+        }
+
+        a.breadcrumb-link  {
+            font-size: 10px;
+        }
+
+        ul.ancre a {
+        font-size: 9px;
+        }
+
+        section#Contacts {
+            position: relative;
+            right: 6px;
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+
+        div.Legal {
+            font-size: 10px;
+        }
+
+        .Principal h1 {
+            font-size: 22px;
+        }
 
         ul.ancre {
-            display:  none;
+            display: none;
         }
     }
 
@@ -335,7 +383,8 @@
     
     
     .oveha-logo {
-    
+        position: relative;
+        bottom: 7px;
         margin-left: 10px ;
         float:left;
         height : 94,5px;
@@ -619,7 +668,7 @@
         margin-bottom: 10%;
         padding: 20px;
         background: #41ab6d;
-        border-radius: 7px;
+        border-radius: 15px;
         height: 150px;
         color: white;
         width: 25%;
