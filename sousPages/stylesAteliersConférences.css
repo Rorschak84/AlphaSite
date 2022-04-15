@@ -176,6 +176,12 @@
             margin: inherit;
         }
 
+        section.Package {
+            width: 90%;
+            float: none;
+            margin: inherit;
+        }
+
         section#Contacts a {
             font-size: 15px;
         }
@@ -611,7 +617,7 @@
     .Conférence {
         color: white;
         display: inline-block;
-        background: #41ab6d;
+        background: #168561;
         border-radius: 15px;
         padding: 20px;
         width: 55%;
@@ -622,11 +628,22 @@
     .Atelier {
         color: white;
         display: inline-block;
-        background: #41ab6d;
+        background: #168561;
         border-radius: 15px;
         padding: 20px;
         width: 55%;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        }
+
+     .Package {
+        color: white;
+        display: inline-block;
+        background: #168561;
+        border-radius: 15px;
+        padding: 20px;
+        width: 57%;
+        margin-bottom: 5%;
         margin-top: 5%;
         }
     
@@ -662,7 +679,7 @@
         margin-left: 2%;
         margin-bottom: 15%;
         padding: 20px;
-        background: #41ab6d;
+        background: #168561;
         border-radius: 15px;
         height: 150px;
         color: white;
