@@ -392,32 +392,33 @@
 
 
     a[href^="#main"] {  
-
+        color: #45764B;
+        background-color: #ECECEC;
         display: block;
+        padding: 0.3%;
         text-align: center;
-        font-size: .1em;
-        opacity: 0;
+        font-size: .7em;
+        list-style: none;
+        text-decoration: none;
     }
-
 
     #header {
     
         width: 1112,89px;
-        height: 100px;
+        height: 113px;
         }
     
     
     .Container {
     
         text-align: right;
-        height: 100px;
+        height: 113px;
         background-image: linear-gradient(to right, #41ab6d, #097a5e);
         }
     
     
     .oveha-logo {
         position: relative;
-        bottom: 7px;
         margin-left: 10px ;
         float:left;
         height : 94,5px;
@@ -616,7 +617,7 @@
    .Principal a {
         font-size: 15px;
         text-decoration: none;
-        color: #e8e8e8;
+        color: #ffffff;
         }
 
     .Principal a:hover {
@@ -628,7 +629,7 @@
         display: inline-block;
         float: left;
         text-align: left;
-        background: #1a8a64;
+        background: #1C8666;
         border-radius: 15px;
         padding: 20px;
         width: 85%;
@@ -642,7 +643,7 @@
         width: 80%;
         float: right;
         text-align: right;
-        background: #1a8a64;
+        background: #1C8666;
         border-radius: 15px;
         padding: 20px;
         margin-bottom: 10%;
@@ -655,7 +656,7 @@
         width: 85%;
         float: left;
         text-align: left;
-        background: #1a8a64;
+        background: #1C8666;
         border-radius: 15px;
         padding: 20px;
         margin-bottom: 10%;
@@ -670,7 +671,7 @@
         width: 85%;
         margin-bottom: 10%;
         margin-top: 10%;
-        background: #1a8a64;
+        background: #1C8666;
         border-radius: 10px;
         padding: 20px;
         }
@@ -698,7 +699,7 @@
     .OETH a {
 
         text-decoration: none;
-        color: #e8e8e8;
+        color: #ffffff;
         }
 
     .OETH a:hover {

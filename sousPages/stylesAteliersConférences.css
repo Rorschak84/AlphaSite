@@ -382,32 +382,33 @@
 
 
     a[href^="#main"] {  
-
+        color: #45764B;
+        background-color: #ECECEC;
         display: block;
+        padding: 0.3%;
         text-align: center;
-        font-size: .1em;
-        opacity: 0;
+        font-size: .7em;
+        list-style: none;
+        text-decoration: none;
     }
 
-    
     #header {
     
         width: 1112,89px;
-        height: 100px;
+        height: 113px;
         }
     
     
     .Container {
     
         text-align: right;
-        height: 100px;
+        height: 113px;
         background-image: linear-gradient(to right, #41ab6d, #097a5e);
         }
     
     
     .oveha-logo {
         position: relative;
-        bottom: 7px;
         margin-left: 10px ;
         float:left;
         height : 94,5px;
@@ -531,7 +532,7 @@
         font-size: 14px;
         display: inline-block;
         text-decoration: none;
-        color: #41ab6d;
+        color: #308252;
         }
     
     .breadcrumb-item a:hover {
@@ -547,7 +548,7 @@
     .breadcrumb-item:not(:last-of-type)::after {
         content: '>';
         margin: 0 5px;
-        color: #41ab6d;
+        color: #308252;
         }
     
     .ancre  {
@@ -564,7 +565,7 @@
         font-size: 11px;
         display: block;
         text-decoration: none;
-        color: #41ab6d;
+        color: #308252;
         }
     
     .ancre a:hover {
@@ -617,7 +618,7 @@
     .Conférence {
         color: white;
         display: inline-block;
-        background: #168561;
+        background: #308252;
         border-radius: 15px;
         padding: 20px;
         width: 55%;
@@ -628,7 +629,7 @@
     .Atelier {
         color: white;
         display: inline-block;
-        background: #168561;
+        background: #308252;
         border-radius: 15px;
         padding: 20px;
         width: 55%;
@@ -639,7 +640,7 @@
      .Package {
         color: white;
         display: inline-block;
-        background: #168561;
+        background: #308252;
         border-radius: 15px;
         padding: 20px;
         width: 57%;
@@ -679,7 +680,7 @@
         margin-left: 2%;
         margin-bottom: 15%;
         padding: 20px;
-        background: #168561;
+        background: #308252;
         border-radius: 15px;
         height: 150px;
         color: white;
