@@ -78,7 +78,7 @@
             padding: none;
             position: inherit;
             float: unset;
-            padding-bottom: 170px;
+            padding-bottom: 20%;
         }
     
         div.mesReferences {
@@ -96,6 +96,7 @@
             width: 100%;
             margin: 0;
             margin-top: 25px;
+            margin-bottom: 25px;
             padding: 0;
             position: inherit;
         }
@@ -668,10 +669,10 @@
 
     #Contacts {
     
-        height: 350px;
+        height: 450px;
         margin-left: 100px;
         margin-right: 100px;
-        padding-bottom: 75px
+        padding-bottom: 10%
         }
     
     .mesReferences {
