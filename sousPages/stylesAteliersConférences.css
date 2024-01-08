@@ -656,8 +656,9 @@
         }
 
     .OETH a {
-
+        font-size: 16px;
         text-decoration: none;
+        color : black;
         }
 
     .OETH a:hover {

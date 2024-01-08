@@ -630,6 +630,21 @@
         margin-top: 7%;
         }
     
+
+    .Temoignage {
+        color: black;
+        display: inline-block;
+        width: 85%;
+        float: left;
+        text-align: left;
+        background: #FFFFFF;
+        border-radius: 15px;
+        padding: 20px;
+        margin-bottom: 10%;
+        margin-top: 10%;
+        }
+
+
     .OETH {
         display: inline-block;
         margin-left: 2%;
@@ -638,8 +653,9 @@
         }
 
     .OETH a {
-
+        font-size: 16px;
         text-decoration: none;
+        color : black;
         }
 
     .OETH a:hover {

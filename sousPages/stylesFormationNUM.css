@@ -655,7 +655,21 @@
         padding: 20px;
         }
 
-    
+
+    .Temoignage {
+        color: black;
+        display: inline-block;
+        width: 85%;
+        float: left;
+        text-align: left;
+        background: #FFFFFF;
+        border-radius: 15px;
+        padding: 20px;
+        margin-bottom: 10%;
+        margin-top: 10%;
+        }
+
+
     .garantie {
         display: inline-block;
         text-align: center;
