@@ -184,6 +184,12 @@
             margin: inherit;
         }
 
+        section.Temoignage {
+            width: 90%;
+            float: none;
+            margin: inherit;
+        }
+
         section.garantie {
             width: 85%;
             font-size: 115%;
@@ -302,6 +308,14 @@
         
         section.fondamentaux {
             margin: inherit;
+        }
+
+        section.Temoignage cite {
+            font-size: 13px;
+        }
+
+        section.Temoignage blockquote {
+            font-size: 13px;
         }
 
         section.garantie p {
